@@ -11828,7 +11828,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="AUDIO" library="jumper" deviceset="SJ" device=""/>
 <part name="X8" library="commodore" deviceset="PORT_EXPANSION_VIC_EDGE" device=""/>
-<part name="X9" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
+<part name="X1" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
@@ -11838,27 +11838,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="VCC" device=""/>
-<part name="X10" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
+<part name="X2" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
-<part name="X11" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
+<part name="X3" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
-<part name="X12" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
+<part name="X4" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY34" library="supply2" deviceset="GND" device=""/>
-<part name="X13" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
+<part name="X5" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
-<part name="X14" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
+<part name="X6" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device=""/>
 <part name="SUPPLY39" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY40" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY41" library="supply2" deviceset="GND" device=""/>
@@ -11867,7 +11867,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="SUPPLY44" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
-<part name="X16" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device="R"/>
+<part name="X7" library="commodore" deviceset="PORT_EXPANSION_VIC_CONN" device="R"/>
 <part name="SUPPLY47" library="supply2" deviceset="VCC" device=""/>
 <part name="F1" library="ptc-littlefuse" deviceset="1812L" device=""/>
 <part name="S1" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
@@ -11940,9 +11940,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instance part="SUPPLY13" gate="GND" x="266.7" y="-332.74"/>
 <instance part="AUDIO" gate="1" x="-101.6" y="-93.98"/>
 <instance part="X8" gate="G$1" x="-124.46" y="-99.06"/>
-<instance part="X9" gate="A" x="-53.34" y="-99.06"/>
+<instance part="X1" gate="A" x="-53.34" y="-99.06"/>
 <instance part="X8" gate="G$2" x="-124.46" y="-45.72"/>
-<instance part="X9" gate="P" x="-53.34" y="-45.72"/>
+<instance part="X1" gate="P" x="-53.34" y="-45.72"/>
 <instance part="SUPPLY14" gate="GND" x="-132.08" y="-60.96"/>
 <instance part="SUPPLY15" gate="GND" x="-127" y="-60.96"/>
 <instance part="SUPPLY16" gate="GND" x="-121.92" y="-60.96"/>
@@ -11952,32 +11952,32 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instance part="SUPPLY20" gate="GND" x="-50.8" y="-60.96"/>
 <instance part="SUPPLY21" gate="GND" x="-45.72" y="-60.96"/>
 <instance part="SUPPLY22" gate="G$1" x="-124.46" y="-30.48"/>
-<instance part="X10" gate="A" x="27.94" y="-99.06"/>
-<instance part="X10" gate="P" x="27.94" y="-45.72"/>
+<instance part="X2" gate="A" x="27.94" y="-99.06"/>
+<instance part="X2" gate="P" x="27.94" y="-45.72"/>
 <instance part="SUPPLY23" gate="GND" x="20.32" y="-60.96"/>
 <instance part="SUPPLY24" gate="GND" x="25.4" y="-60.96"/>
 <instance part="SUPPLY25" gate="GND" x="30.48" y="-60.96"/>
 <instance part="SUPPLY26" gate="GND" x="35.56" y="-60.96"/>
-<instance part="X11" gate="A" x="109.22" y="-99.06"/>
-<instance part="X11" gate="P" x="109.22" y="-45.72"/>
+<instance part="X3" gate="A" x="109.22" y="-99.06"/>
+<instance part="X3" gate="P" x="109.22" y="-45.72"/>
 <instance part="SUPPLY27" gate="GND" x="101.6" y="-60.96"/>
 <instance part="SUPPLY28" gate="GND" x="106.68" y="-60.96"/>
 <instance part="SUPPLY29" gate="GND" x="111.76" y="-60.96"/>
 <instance part="SUPPLY30" gate="GND" x="116.84" y="-60.96"/>
-<instance part="X12" gate="A" x="190.5" y="-99.06"/>
-<instance part="X12" gate="P" x="190.5" y="-45.72"/>
+<instance part="X4" gate="A" x="190.5" y="-99.06"/>
+<instance part="X4" gate="P" x="190.5" y="-45.72"/>
 <instance part="SUPPLY31" gate="GND" x="182.88" y="-60.96"/>
 <instance part="SUPPLY32" gate="GND" x="187.96" y="-60.96"/>
 <instance part="SUPPLY33" gate="GND" x="193.04" y="-60.96"/>
 <instance part="SUPPLY34" gate="GND" x="198.12" y="-60.96"/>
-<instance part="X13" gate="A" x="271.78" y="-99.06"/>
-<instance part="X13" gate="P" x="271.78" y="-45.72"/>
+<instance part="X5" gate="A" x="271.78" y="-99.06"/>
+<instance part="X5" gate="P" x="271.78" y="-45.72"/>
 <instance part="SUPPLY35" gate="GND" x="264.16" y="-60.96"/>
 <instance part="SUPPLY36" gate="GND" x="269.24" y="-60.96"/>
 <instance part="SUPPLY37" gate="GND" x="274.32" y="-60.96"/>
 <instance part="SUPPLY38" gate="GND" x="279.4" y="-60.96"/>
-<instance part="X14" gate="A" x="353.06" y="-99.06"/>
-<instance part="X14" gate="P" x="353.06" y="-45.72"/>
+<instance part="X6" gate="A" x="353.06" y="-99.06"/>
+<instance part="X6" gate="P" x="353.06" y="-45.72"/>
 <instance part="SUPPLY39" gate="GND" x="345.44" y="-60.96"/>
 <instance part="SUPPLY40" gate="GND" x="350.52" y="-60.96"/>
 <instance part="SUPPLY41" gate="GND" x="355.6" y="-60.96"/>
@@ -11986,8 +11986,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instance part="SUPPLY44" gate="GND" x="431.8" y="-60.96"/>
 <instance part="SUPPLY45" gate="GND" x="436.88" y="-60.96"/>
 <instance part="SUPPLY46" gate="GND" x="441.96" y="-60.96"/>
-<instance part="X16" gate="A" x="434.34" y="-99.06"/>
-<instance part="X16" gate="P" x="434.34" y="-45.72"/>
+<instance part="X7" gate="A" x="434.34" y="-99.06"/>
+<instance part="X7" gate="P" x="434.34" y="-45.72"/>
 <instance part="SUPPLY47" gate="G$1" x="-116.84" y="-30.48"/>
 <instance part="F1" gate="G$1" x="-109.22" y="-35.56"/>
 <instance part="S1" gate="-1" x="-53.34" y="-137.16" rot="R270"/>
@@ -12149,7 +12149,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-124.46" x2="-86.36" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="-96.52" x2="-20.32" y2="-73.66" width="0.762" layer="92"/>
+<wire x1="-20.32" y1="-91.44" x2="-20.32" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="-20.32" y1="-129.54" x2="-20.32" y2="-127" width="0.762" layer="92"/>
@@ -12158,7 +12158,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-5.08" y1="-124.46" x2="-5.08" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="-96.52" x2="60.96" y2="-73.66" width="0.762" layer="92"/>
+<wire x1="60.96" y1="-91.44" x2="60.96" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-129.54" x2="60.96" y2="-127" width="0.762" layer="92"/>
@@ -12167,7 +12167,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="76.2" y1="-124.46" x2="76.2" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="142.24" y1="-96.52" x2="142.24" y2="-73.66" width="0.762" layer="92"/>
+<wire x1="142.24" y1="-91.44" x2="142.24" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-129.54" x2="142.24" y2="-127" width="0.762" layer="92"/>
@@ -12176,7 +12176,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="157.48" y1="-124.46" x2="157.48" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="223.52" y1="-96.52" x2="223.52" y2="-73.66" width="0.762" layer="92"/>
+<wire x1="223.52" y1="-91.44" x2="223.52" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-129.54" x2="223.52" y2="-127" width="0.762" layer="92"/>
@@ -12185,7 +12185,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="238.76" y1="-124.46" x2="238.76" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="-96.52" x2="304.8" y2="-73.66" width="0.762" layer="92"/>
+<wire x1="304.8" y1="-91.44" x2="304.8" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-129.54" x2="304.8" y2="-127" width="0.762" layer="92"/>
@@ -12194,7 +12194,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="320.04" y1="-124.46" x2="320.04" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="386.08" y1="-96.52" x2="386.08" y2="-73.66" width="0.762" layer="92"/>
+<wire x1="386.08" y1="-91.44" x2="386.08" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-129.54" x2="386.08" y2="-127" width="0.762" layer="92"/>
@@ -12203,7 +12203,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="401.32" y1="-124.46" x2="401.32" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="467.36" y1="-96.52" x2="467.36" y2="-73.66" width="0.762" layer="92"/>
+<wire x1="467.36" y1="-91.44" x2="467.36" y2="-73.66" width="0.762" layer="92"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-129.54" x2="467.36" y2="-127" width="0.762" layer="92"/>
@@ -12222,43 +12222,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-129.54" x2="-22.86" y2="-127" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-127" x2="-38.1" y2="-127" width="0.1524" layer="91"/>
 <label x="-22.86" y="-127" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="!IRQ"/>
+<pinref part="X1" gate="A" pin="!IRQ"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-129.54" x2="58.42" y2="-127" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-127" x2="43.18" y2="-127" width="0.1524" layer="91"/>
 <label x="58.42" y="-127" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="!IRQ"/>
+<pinref part="X2" gate="A" pin="!IRQ"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-129.54" x2="139.7" y2="-127" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-127" x2="124.46" y2="-127" width="0.1524" layer="91"/>
 <label x="139.7" y="-127" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="!IRQ"/>
+<pinref part="X3" gate="A" pin="!IRQ"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-129.54" x2="220.98" y2="-127" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-127" x2="205.74" y2="-127" width="0.1524" layer="91"/>
 <label x="220.98" y="-127" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="!IRQ"/>
+<pinref part="X4" gate="A" pin="!IRQ"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-129.54" x2="302.26" y2="-127" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-127" x2="287.02" y2="-127" width="0.1524" layer="91"/>
 <label x="302.26" y="-127" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="!IRQ"/>
+<pinref part="X5" gate="A" pin="!IRQ"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-129.54" x2="383.54" y2="-127" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-127" x2="368.3" y2="-127" width="0.1524" layer="91"/>
 <label x="383.54" y="-127" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="!IRQ"/>
+<pinref part="X6" gate="A" pin="!IRQ"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-129.54" x2="464.82" y2="-127" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-127" x2="449.58" y2="-127" width="0.1524" layer="91"/>
 <label x="464.82" y="-127" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="!IRQ"/>
+<pinref part="X7" gate="A" pin="!IRQ"/>
 </segment>
 </net>
 <net name="CR/!W" class="0">
@@ -12272,43 +12272,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-121.92" x2="-83.82" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-119.38" x2="-68.58" y2="-119.38" width="0.1524" layer="91"/>
 <label x="-83.82" y="-119.38" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="CR/!W"/>
+<pinref part="X1" gate="A" pin="CR/!W"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-121.92" x2="-2.54" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-119.38" x2="12.7" y2="-119.38" width="0.1524" layer="91"/>
 <label x="-2.54" y="-119.38" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="CR/!W"/>
+<pinref part="X2" gate="A" pin="CR/!W"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-121.92" x2="78.74" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-119.38" x2="93.98" y2="-119.38" width="0.1524" layer="91"/>
 <label x="78.74" y="-119.38" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="CR/!W"/>
+<pinref part="X3" gate="A" pin="CR/!W"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-121.92" x2="160.02" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-119.38" x2="175.26" y2="-119.38" width="0.1524" layer="91"/>
 <label x="160.02" y="-119.38" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="CR/!W"/>
+<pinref part="X4" gate="A" pin="CR/!W"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-121.92" x2="241.3" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-119.38" x2="256.54" y2="-119.38" width="0.1524" layer="91"/>
 <label x="241.3" y="-119.38" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="CR/!W"/>
+<pinref part="X5" gate="A" pin="CR/!W"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-121.92" x2="322.58" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-119.38" x2="337.82" y2="-119.38" width="0.1524" layer="91"/>
 <label x="322.58" y="-119.38" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="CR/!W"/>
+<pinref part="X6" gate="A" pin="CR/!W"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-121.92" x2="403.86" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-119.38" x2="419.1" y2="-119.38" width="0.1524" layer="91"/>
 <label x="403.86" y="-119.38" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="CR/!W"/>
+<pinref part="X7" gate="A" pin="CR/!W"/>
 </segment>
 </net>
 <net name="VR/!W" class="0">
@@ -12322,43 +12322,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-124.46" x2="-83.82" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-121.92" x2="-68.58" y2="-121.92" width="0.1524" layer="91"/>
 <label x="-83.82" y="-121.92" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="VR/!W"/>
+<pinref part="X1" gate="A" pin="VR/!W"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-124.46" x2="-2.54" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-121.92" x2="12.7" y2="-121.92" width="0.1524" layer="91"/>
 <label x="-2.54" y="-121.92" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="VR/!W"/>
+<pinref part="X2" gate="A" pin="VR/!W"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-124.46" x2="78.74" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-121.92" x2="93.98" y2="-121.92" width="0.1524" layer="91"/>
 <label x="78.74" y="-121.92" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="VR/!W"/>
+<pinref part="X3" gate="A" pin="VR/!W"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-124.46" x2="160.02" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-121.92" x2="175.26" y2="-121.92" width="0.1524" layer="91"/>
 <label x="160.02" y="-121.92" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="VR/!W"/>
+<pinref part="X4" gate="A" pin="VR/!W"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-124.46" x2="241.3" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-121.92" x2="256.54" y2="-121.92" width="0.1524" layer="91"/>
 <label x="241.3" y="-121.92" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="VR/!W"/>
+<pinref part="X5" gate="A" pin="VR/!W"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-124.46" x2="322.58" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-121.92" x2="337.82" y2="-121.92" width="0.1524" layer="91"/>
 <label x="322.58" y="-121.92" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="VR/!W"/>
+<pinref part="X6" gate="A" pin="VR/!W"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-124.46" x2="403.86" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-121.92" x2="419.1" y2="-121.92" width="0.1524" layer="91"/>
 <label x="403.86" y="-121.92" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="VR/!W"/>
+<pinref part="X7" gate="A" pin="VR/!W"/>
 </segment>
 </net>
 <net name="!RAM3" class="0">
@@ -12638,43 +12638,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-91.44" x2="-22.86" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-88.9" x2="-38.1" y2="-88.9" width="0.1524" layer="91"/>
 <label x="-22.86" y="-88.9" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="D7"/>
+<pinref part="X1" gate="A" pin="D7"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-91.44" x2="58.42" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-88.9" x2="43.18" y2="-88.9" width="0.1524" layer="91"/>
 <label x="58.42" y="-88.9" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="D7"/>
+<pinref part="X2" gate="A" pin="D7"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-91.44" x2="139.7" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-88.9" x2="124.46" y2="-88.9" width="0.1524" layer="91"/>
 <label x="139.7" y="-88.9" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="D7"/>
+<pinref part="X3" gate="A" pin="D7"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-91.44" x2="220.98" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-88.9" x2="205.74" y2="-88.9" width="0.1524" layer="91"/>
 <label x="220.98" y="-88.9" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="D7"/>
+<pinref part="X4" gate="A" pin="D7"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-91.44" x2="302.26" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-88.9" x2="287.02" y2="-88.9" width="0.1524" layer="91"/>
 <label x="302.26" y="-88.9" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="D7"/>
+<pinref part="X5" gate="A" pin="D7"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-91.44" x2="383.54" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-88.9" x2="368.3" y2="-88.9" width="0.1524" layer="91"/>
 <label x="383.54" y="-88.9" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="D7"/>
+<pinref part="X6" gate="A" pin="D7"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-91.44" x2="464.82" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-88.9" x2="449.58" y2="-88.9" width="0.1524" layer="91"/>
 <label x="464.82" y="-88.9" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="D7"/>
+<pinref part="X7" gate="A" pin="D7"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -12688,43 +12688,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-88.9" x2="-22.86" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-86.36" x2="-38.1" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-22.86" y="-86.36" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="D6"/>
+<pinref part="X1" gate="A" pin="D6"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-88.9" x2="58.42" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-86.36" x2="43.18" y2="-86.36" width="0.1524" layer="91"/>
 <label x="58.42" y="-86.36" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="D6"/>
+<pinref part="X2" gate="A" pin="D6"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-88.9" x2="139.7" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-86.36" x2="124.46" y2="-86.36" width="0.1524" layer="91"/>
 <label x="139.7" y="-86.36" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="D6"/>
+<pinref part="X3" gate="A" pin="D6"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-88.9" x2="220.98" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-86.36" x2="205.74" y2="-86.36" width="0.1524" layer="91"/>
 <label x="220.98" y="-86.36" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="D6"/>
+<pinref part="X4" gate="A" pin="D6"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-88.9" x2="302.26" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-86.36" x2="287.02" y2="-86.36" width="0.1524" layer="91"/>
 <label x="302.26" y="-86.36" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="D6"/>
+<pinref part="X5" gate="A" pin="D6"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-88.9" x2="383.54" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-86.36" x2="368.3" y2="-86.36" width="0.1524" layer="91"/>
 <label x="383.54" y="-86.36" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="D6"/>
+<pinref part="X6" gate="A" pin="D6"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-88.9" x2="464.82" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-86.36" x2="449.58" y2="-86.36" width="0.1524" layer="91"/>
 <label x="464.82" y="-86.36" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="D6"/>
+<pinref part="X7" gate="A" pin="D6"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -12738,43 +12738,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-86.36" x2="-22.86" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-83.82" x2="-38.1" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-22.86" y="-83.82" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="D5"/>
+<pinref part="X1" gate="A" pin="D5"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-86.36" x2="58.42" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-83.82" x2="43.18" y2="-83.82" width="0.1524" layer="91"/>
 <label x="58.42" y="-83.82" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="D5"/>
+<pinref part="X2" gate="A" pin="D5"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-86.36" x2="139.7" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-83.82" x2="124.46" y2="-83.82" width="0.1524" layer="91"/>
 <label x="139.7" y="-83.82" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="D5"/>
+<pinref part="X3" gate="A" pin="D5"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-86.36" x2="220.98" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-83.82" x2="205.74" y2="-83.82" width="0.1524" layer="91"/>
 <label x="220.98" y="-83.82" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="D5"/>
+<pinref part="X4" gate="A" pin="D5"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-86.36" x2="302.26" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-83.82" x2="287.02" y2="-83.82" width="0.1524" layer="91"/>
 <label x="302.26" y="-83.82" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="D5"/>
+<pinref part="X5" gate="A" pin="D5"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-86.36" x2="383.54" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-83.82" x2="368.3" y2="-83.82" width="0.1524" layer="91"/>
 <label x="383.54" y="-83.82" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="D5"/>
+<pinref part="X6" gate="A" pin="D5"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-86.36" x2="464.82" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-83.82" x2="449.58" y2="-83.82" width="0.1524" layer="91"/>
 <label x="464.82" y="-83.82" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="D5"/>
+<pinref part="X7" gate="A" pin="D5"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -12788,43 +12788,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-83.82" x2="-22.86" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-81.28" x2="-38.1" y2="-81.28" width="0.1524" layer="91"/>
 <label x="-22.86" y="-81.28" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="D4"/>
+<pinref part="X1" gate="A" pin="D4"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-83.82" x2="58.42" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-81.28" x2="43.18" y2="-81.28" width="0.1524" layer="91"/>
 <label x="58.42" y="-81.28" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="D4"/>
+<pinref part="X2" gate="A" pin="D4"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-83.82" x2="139.7" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-81.28" x2="124.46" y2="-81.28" width="0.1524" layer="91"/>
 <label x="139.7" y="-81.28" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="D4"/>
+<pinref part="X3" gate="A" pin="D4"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-83.82" x2="220.98" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-81.28" x2="205.74" y2="-81.28" width="0.1524" layer="91"/>
 <label x="220.98" y="-81.28" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="D4"/>
+<pinref part="X4" gate="A" pin="D4"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-83.82" x2="302.26" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-81.28" x2="287.02" y2="-81.28" width="0.1524" layer="91"/>
 <label x="302.26" y="-81.28" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="D4"/>
+<pinref part="X5" gate="A" pin="D4"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-83.82" x2="383.54" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-81.28" x2="368.3" y2="-81.28" width="0.1524" layer="91"/>
 <label x="383.54" y="-81.28" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="D4"/>
+<pinref part="X6" gate="A" pin="D4"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-83.82" x2="464.82" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-81.28" x2="449.58" y2="-81.28" width="0.1524" layer="91"/>
 <label x="464.82" y="-81.28" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="D4"/>
+<pinref part="X7" gate="A" pin="D4"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -12838,43 +12838,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-81.28" x2="-22.86" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-78.74" x2="-38.1" y2="-78.74" width="0.1524" layer="91"/>
 <label x="-22.86" y="-78.74" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="D3"/>
+<pinref part="X1" gate="A" pin="D3"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-81.28" x2="58.42" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-78.74" x2="43.18" y2="-78.74" width="0.1524" layer="91"/>
 <label x="58.42" y="-78.74" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="D3"/>
+<pinref part="X2" gate="A" pin="D3"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-81.28" x2="139.7" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-78.74" x2="124.46" y2="-78.74" width="0.1524" layer="91"/>
 <label x="139.7" y="-78.74" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="D3"/>
+<pinref part="X3" gate="A" pin="D3"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-81.28" x2="220.98" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-78.74" x2="205.74" y2="-78.74" width="0.1524" layer="91"/>
 <label x="220.98" y="-78.74" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="D3"/>
+<pinref part="X4" gate="A" pin="D3"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-81.28" x2="302.26" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-78.74" x2="287.02" y2="-78.74" width="0.1524" layer="91"/>
 <label x="302.26" y="-78.74" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="D3"/>
+<pinref part="X5" gate="A" pin="D3"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-81.28" x2="383.54" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-78.74" x2="368.3" y2="-78.74" width="0.1524" layer="91"/>
 <label x="383.54" y="-78.74" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="D3"/>
+<pinref part="X6" gate="A" pin="D3"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-81.28" x2="464.82" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-78.74" x2="449.58" y2="-78.74" width="0.1524" layer="91"/>
 <label x="464.82" y="-78.74" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="D3"/>
+<pinref part="X7" gate="A" pin="D3"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -12888,43 +12888,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-78.74" x2="-22.86" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-76.2" x2="-38.1" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-22.86" y="-76.2" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="D2"/>
+<pinref part="X1" gate="A" pin="D2"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-78.74" x2="58.42" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-76.2" x2="43.18" y2="-76.2" width="0.1524" layer="91"/>
 <label x="58.42" y="-76.2" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="D2"/>
+<pinref part="X2" gate="A" pin="D2"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-78.74" x2="139.7" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-76.2" x2="124.46" y2="-76.2" width="0.1524" layer="91"/>
 <label x="139.7" y="-76.2" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="D2"/>
+<pinref part="X3" gate="A" pin="D2"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-78.74" x2="220.98" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-76.2" x2="205.74" y2="-76.2" width="0.1524" layer="91"/>
 <label x="220.98" y="-76.2" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="D2"/>
+<pinref part="X4" gate="A" pin="D2"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-78.74" x2="302.26" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-76.2" x2="287.02" y2="-76.2" width="0.1524" layer="91"/>
 <label x="302.26" y="-76.2" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="D2"/>
+<pinref part="X5" gate="A" pin="D2"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-78.74" x2="383.54" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-76.2" x2="368.3" y2="-76.2" width="0.1524" layer="91"/>
 <label x="383.54" y="-76.2" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="D2"/>
+<pinref part="X6" gate="A" pin="D2"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-78.74" x2="464.82" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-76.2" x2="449.58" y2="-76.2" width="0.1524" layer="91"/>
 <label x="464.82" y="-76.2" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="D2"/>
+<pinref part="X7" gate="A" pin="D2"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -12938,43 +12938,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-78.74" x2="-83.82" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-76.2" x2="-68.58" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-83.82" y="-76.2" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A0"/>
+<pinref part="X1" gate="A" pin="A0"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-78.74" x2="-2.54" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-76.2" x2="12.7" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-2.54" y="-76.2" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A0"/>
+<pinref part="X2" gate="A" pin="A0"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-78.74" x2="78.74" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-76.2" x2="93.98" y2="-76.2" width="0.1524" layer="91"/>
 <label x="78.74" y="-76.2" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A0"/>
+<pinref part="X3" gate="A" pin="A0"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-78.74" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-76.2" x2="175.26" y2="-76.2" width="0.1524" layer="91"/>
 <label x="160.02" y="-76.2" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A0"/>
+<pinref part="X4" gate="A" pin="A0"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-78.74" x2="241.3" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-76.2" x2="256.54" y2="-76.2" width="0.1524" layer="91"/>
 <label x="241.3" y="-76.2" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A0"/>
+<pinref part="X5" gate="A" pin="A0"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-78.74" x2="322.58" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-76.2" x2="337.82" y2="-76.2" width="0.1524" layer="91"/>
 <label x="322.58" y="-76.2" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A0"/>
+<pinref part="X6" gate="A" pin="A0"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-78.74" x2="403.86" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-76.2" x2="419.1" y2="-76.2" width="0.1524" layer="91"/>
 <label x="403.86" y="-76.2" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A0"/>
+<pinref part="X7" gate="A" pin="A0"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -12988,43 +12988,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-81.28" x2="-83.82" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-78.74" x2="-68.58" y2="-78.74" width="0.1524" layer="91"/>
 <label x="-83.82" y="-78.74" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A1"/>
+<pinref part="X1" gate="A" pin="A1"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-81.28" x2="-2.54" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-78.74" x2="12.7" y2="-78.74" width="0.1524" layer="91"/>
 <label x="-2.54" y="-78.74" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A1"/>
+<pinref part="X2" gate="A" pin="A1"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-81.28" x2="78.74" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-78.74" x2="93.98" y2="-78.74" width="0.1524" layer="91"/>
 <label x="78.74" y="-78.74" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A1"/>
+<pinref part="X3" gate="A" pin="A1"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-81.28" x2="160.02" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-78.74" x2="175.26" y2="-78.74" width="0.1524" layer="91"/>
 <label x="160.02" y="-78.74" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A1"/>
+<pinref part="X4" gate="A" pin="A1"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-81.28" x2="241.3" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-78.74" x2="256.54" y2="-78.74" width="0.1524" layer="91"/>
 <label x="241.3" y="-78.74" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A1"/>
+<pinref part="X5" gate="A" pin="A1"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-81.28" x2="322.58" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-78.74" x2="337.82" y2="-78.74" width="0.1524" layer="91"/>
 <label x="322.58" y="-78.74" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A1"/>
+<pinref part="X6" gate="A" pin="A1"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-81.28" x2="403.86" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-78.74" x2="419.1" y2="-78.74" width="0.1524" layer="91"/>
 <label x="403.86" y="-78.74" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A1"/>
+<pinref part="X7" gate="A" pin="A1"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -13038,43 +13038,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-83.82" x2="-83.82" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-81.28" x2="-68.58" y2="-81.28" width="0.1524" layer="91"/>
 <label x="-83.82" y="-81.28" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A2"/>
+<pinref part="X1" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-83.82" x2="-2.54" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-81.28" x2="12.7" y2="-81.28" width="0.1524" layer="91"/>
 <label x="-2.54" y="-81.28" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A2"/>
+<pinref part="X2" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-83.82" x2="78.74" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-81.28" x2="93.98" y2="-81.28" width="0.1524" layer="91"/>
 <label x="78.74" y="-81.28" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A2"/>
+<pinref part="X3" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-83.82" x2="160.02" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-81.28" x2="175.26" y2="-81.28" width="0.1524" layer="91"/>
 <label x="160.02" y="-81.28" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A2"/>
+<pinref part="X4" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-83.82" x2="241.3" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-81.28" x2="256.54" y2="-81.28" width="0.1524" layer="91"/>
 <label x="241.3" y="-81.28" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A2"/>
+<pinref part="X5" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-83.82" x2="322.58" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-81.28" x2="337.82" y2="-81.28" width="0.1524" layer="91"/>
 <label x="322.58" y="-81.28" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A2"/>
+<pinref part="X6" gate="A" pin="A2"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-83.82" x2="403.86" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-81.28" x2="419.1" y2="-81.28" width="0.1524" layer="91"/>
 <label x="403.86" y="-81.28" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A2"/>
+<pinref part="X7" gate="A" pin="A2"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -13088,43 +13088,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-86.36" x2="-83.82" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-83.82" x2="-68.58" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-83.82" y="-83.82" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A3"/>
+<pinref part="X1" gate="A" pin="A3"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-86.36" x2="-2.54" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-83.82" x2="12.7" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-2.54" y="-83.82" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A3"/>
+<pinref part="X2" gate="A" pin="A3"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-86.36" x2="78.74" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-83.82" x2="93.98" y2="-83.82" width="0.1524" layer="91"/>
 <label x="78.74" y="-83.82" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A3"/>
+<pinref part="X3" gate="A" pin="A3"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-86.36" x2="160.02" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-83.82" x2="175.26" y2="-83.82" width="0.1524" layer="91"/>
 <label x="160.02" y="-83.82" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A3"/>
+<pinref part="X4" gate="A" pin="A3"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-86.36" x2="241.3" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-83.82" x2="256.54" y2="-83.82" width="0.1524" layer="91"/>
 <label x="241.3" y="-83.82" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A3"/>
+<pinref part="X5" gate="A" pin="A3"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-86.36" x2="322.58" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-83.82" x2="337.82" y2="-83.82" width="0.1524" layer="91"/>
 <label x="322.58" y="-83.82" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A3"/>
+<pinref part="X6" gate="A" pin="A3"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-86.36" x2="403.86" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-83.82" x2="419.1" y2="-83.82" width="0.1524" layer="91"/>
 <label x="403.86" y="-83.82" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A3"/>
+<pinref part="X7" gate="A" pin="A3"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -13138,43 +13138,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-88.9" x2="-83.82" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-86.36" x2="-68.58" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-83.82" y="-86.36" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A4"/>
+<pinref part="X1" gate="A" pin="A4"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-88.9" x2="-2.54" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-86.36" x2="12.7" y2="-86.36" width="0.1524" layer="91"/>
 <label x="-2.54" y="-86.36" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A4"/>
+<pinref part="X2" gate="A" pin="A4"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-88.9" x2="78.74" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-86.36" x2="93.98" y2="-86.36" width="0.1524" layer="91"/>
 <label x="78.74" y="-86.36" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A4"/>
+<pinref part="X3" gate="A" pin="A4"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-88.9" x2="160.02" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-86.36" x2="175.26" y2="-86.36" width="0.1524" layer="91"/>
 <label x="160.02" y="-86.36" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A4"/>
+<pinref part="X4" gate="A" pin="A4"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-88.9" x2="241.3" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-86.36" x2="256.54" y2="-86.36" width="0.1524" layer="91"/>
 <label x="241.3" y="-86.36" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A4"/>
+<pinref part="X5" gate="A" pin="A4"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-88.9" x2="322.58" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-86.36" x2="337.82" y2="-86.36" width="0.1524" layer="91"/>
 <label x="322.58" y="-86.36" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A4"/>
+<pinref part="X6" gate="A" pin="A4"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-88.9" x2="403.86" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-86.36" x2="419.1" y2="-86.36" width="0.1524" layer="91"/>
 <label x="403.86" y="-86.36" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A4"/>
+<pinref part="X7" gate="A" pin="A4"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -13188,43 +13188,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-91.44" x2="-83.82" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-88.9" x2="-68.58" y2="-88.9" width="0.1524" layer="91"/>
 <label x="-83.82" y="-88.9" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A5"/>
+<pinref part="X1" gate="A" pin="A5"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-91.44" x2="-2.54" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-88.9" x2="12.7" y2="-88.9" width="0.1524" layer="91"/>
 <label x="-2.54" y="-88.9" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A5"/>
+<pinref part="X2" gate="A" pin="A5"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-91.44" x2="78.74" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-88.9" x2="93.98" y2="-88.9" width="0.1524" layer="91"/>
 <label x="78.74" y="-88.9" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A5"/>
+<pinref part="X3" gate="A" pin="A5"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-91.44" x2="160.02" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-88.9" x2="175.26" y2="-88.9" width="0.1524" layer="91"/>
 <label x="160.02" y="-88.9" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A5"/>
+<pinref part="X4" gate="A" pin="A5"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-91.44" x2="241.3" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-88.9" x2="256.54" y2="-88.9" width="0.1524" layer="91"/>
 <label x="241.3" y="-88.9" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A5"/>
+<pinref part="X5" gate="A" pin="A5"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-91.44" x2="322.58" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-88.9" x2="337.82" y2="-88.9" width="0.1524" layer="91"/>
 <label x="322.58" y="-88.9" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A5"/>
+<pinref part="X6" gate="A" pin="A5"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-91.44" x2="403.86" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-88.9" x2="419.1" y2="-88.9" width="0.1524" layer="91"/>
 <label x="403.86" y="-88.9" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A5"/>
+<pinref part="X7" gate="A" pin="A5"/>
 </segment>
 </net>
 <net name="A6" class="0">
@@ -13238,43 +13238,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-93.98" x2="-83.82" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-91.44" x2="-68.58" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-83.82" y="-91.44" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A6"/>
+<pinref part="X1" gate="A" pin="A6"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-93.98" x2="-2.54" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-91.44" x2="12.7" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-2.54" y="-91.44" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A6"/>
+<pinref part="X2" gate="A" pin="A6"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-93.98" x2="78.74" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-91.44" x2="93.98" y2="-91.44" width="0.1524" layer="91"/>
 <label x="78.74" y="-91.44" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A6"/>
+<pinref part="X3" gate="A" pin="A6"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-93.98" x2="160.02" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-91.44" x2="175.26" y2="-91.44" width="0.1524" layer="91"/>
 <label x="160.02" y="-91.44" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A6"/>
+<pinref part="X4" gate="A" pin="A6"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-93.98" x2="241.3" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-91.44" x2="256.54" y2="-91.44" width="0.1524" layer="91"/>
 <label x="241.3" y="-91.44" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A6"/>
+<pinref part="X5" gate="A" pin="A6"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-93.98" x2="322.58" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-91.44" x2="337.82" y2="-91.44" width="0.1524" layer="91"/>
 <label x="322.58" y="-91.44" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A6"/>
+<pinref part="X6" gate="A" pin="A6"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-93.98" x2="403.86" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-91.44" x2="419.1" y2="-91.44" width="0.1524" layer="91"/>
 <label x="403.86" y="-91.44" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A6"/>
+<pinref part="X7" gate="A" pin="A6"/>
 </segment>
 </net>
 <net name="A7" class="0">
@@ -13288,43 +13288,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-96.52" x2="-83.82" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-93.98" x2="-68.58" y2="-93.98" width="0.1524" layer="91"/>
 <label x="-83.82" y="-93.98" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A7"/>
+<pinref part="X1" gate="A" pin="A7"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-96.52" x2="-2.54" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-93.98" x2="12.7" y2="-93.98" width="0.1524" layer="91"/>
 <label x="-2.54" y="-93.98" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A7"/>
+<pinref part="X2" gate="A" pin="A7"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-96.52" x2="78.74" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-93.98" x2="93.98" y2="-93.98" width="0.1524" layer="91"/>
 <label x="78.74" y="-93.98" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A7"/>
+<pinref part="X3" gate="A" pin="A7"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-96.52" x2="160.02" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-93.98" x2="175.26" y2="-93.98" width="0.1524" layer="91"/>
 <label x="160.02" y="-93.98" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A7"/>
+<pinref part="X4" gate="A" pin="A7"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-96.52" x2="241.3" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-93.98" x2="256.54" y2="-93.98" width="0.1524" layer="91"/>
 <label x="241.3" y="-93.98" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A7"/>
+<pinref part="X5" gate="A" pin="A7"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-96.52" x2="322.58" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-93.98" x2="337.82" y2="-93.98" width="0.1524" layer="91"/>
 <label x="322.58" y="-93.98" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A7"/>
+<pinref part="X6" gate="A" pin="A7"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-96.52" x2="403.86" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-93.98" x2="419.1" y2="-93.98" width="0.1524" layer="91"/>
 <label x="403.86" y="-93.98" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A7"/>
+<pinref part="X7" gate="A" pin="A7"/>
 </segment>
 </net>
 <net name="A8" class="0">
@@ -13338,43 +13338,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-99.06" x2="-83.82" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-96.52" x2="-68.58" y2="-96.52" width="0.1524" layer="91"/>
 <label x="-83.82" y="-96.52" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A8"/>
+<pinref part="X1" gate="A" pin="A8"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-99.06" x2="-2.54" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-96.52" x2="12.7" y2="-96.52" width="0.1524" layer="91"/>
 <label x="-2.54" y="-96.52" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A8"/>
+<pinref part="X2" gate="A" pin="A8"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-99.06" x2="78.74" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-96.52" x2="93.98" y2="-96.52" width="0.1524" layer="91"/>
 <label x="78.74" y="-96.52" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A8"/>
+<pinref part="X3" gate="A" pin="A8"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-99.06" x2="160.02" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-96.52" x2="175.26" y2="-96.52" width="0.1524" layer="91"/>
 <label x="160.02" y="-96.52" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A8"/>
+<pinref part="X4" gate="A" pin="A8"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-99.06" x2="241.3" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-96.52" x2="256.54" y2="-96.52" width="0.1524" layer="91"/>
 <label x="241.3" y="-96.52" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A8"/>
+<pinref part="X5" gate="A" pin="A8"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-99.06" x2="322.58" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-96.52" x2="337.82" y2="-96.52" width="0.1524" layer="91"/>
 <label x="322.58" y="-96.52" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A8"/>
+<pinref part="X6" gate="A" pin="A8"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-99.06" x2="403.86" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-96.52" x2="419.1" y2="-96.52" width="0.1524" layer="91"/>
 <label x="403.86" y="-96.52" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A8"/>
+<pinref part="X7" gate="A" pin="A8"/>
 </segment>
 </net>
 <net name="A9" class="0">
@@ -13388,43 +13388,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-101.6" x2="-83.82" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-99.06" x2="-68.58" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-83.82" y="-99.06" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A9"/>
+<pinref part="X1" gate="A" pin="A9"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-101.6" x2="-2.54" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-99.06" x2="12.7" y2="-99.06" width="0.1524" layer="91"/>
 <label x="-2.54" y="-99.06" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A9"/>
+<pinref part="X2" gate="A" pin="A9"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-101.6" x2="78.74" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-99.06" x2="93.98" y2="-99.06" width="0.1524" layer="91"/>
 <label x="78.74" y="-99.06" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A9"/>
+<pinref part="X3" gate="A" pin="A9"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-101.6" x2="160.02" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-99.06" x2="175.26" y2="-99.06" width="0.1524" layer="91"/>
 <label x="160.02" y="-99.06" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A9"/>
+<pinref part="X4" gate="A" pin="A9"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-101.6" x2="241.3" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-99.06" x2="256.54" y2="-99.06" width="0.1524" layer="91"/>
 <label x="241.3" y="-99.06" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A9"/>
+<pinref part="X5" gate="A" pin="A9"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-101.6" x2="322.58" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-99.06" x2="337.82" y2="-99.06" width="0.1524" layer="91"/>
 <label x="322.58" y="-99.06" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A9"/>
+<pinref part="X6" gate="A" pin="A9"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-101.6" x2="403.86" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-99.06" x2="419.1" y2="-99.06" width="0.1524" layer="91"/>
 <label x="403.86" y="-99.06" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A9"/>
+<pinref part="X7" gate="A" pin="A9"/>
 </segment>
 </net>
 <net name="A10" class="0">
@@ -13438,43 +13438,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-104.14" x2="-83.82" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-101.6" x2="-68.58" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-83.82" y="-101.6" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A10"/>
+<pinref part="X1" gate="A" pin="A10"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-104.14" x2="-2.54" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-101.6" x2="12.7" y2="-101.6" width="0.1524" layer="91"/>
 <label x="-2.54" y="-101.6" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A10"/>
+<pinref part="X2" gate="A" pin="A10"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-104.14" x2="78.74" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-101.6" x2="93.98" y2="-101.6" width="0.1524" layer="91"/>
 <label x="78.74" y="-101.6" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A10"/>
+<pinref part="X3" gate="A" pin="A10"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-104.14" x2="160.02" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-101.6" x2="175.26" y2="-101.6" width="0.1524" layer="91"/>
 <label x="160.02" y="-101.6" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A10"/>
+<pinref part="X4" gate="A" pin="A10"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-104.14" x2="241.3" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-101.6" x2="256.54" y2="-101.6" width="0.1524" layer="91"/>
 <label x="241.3" y="-101.6" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A10"/>
+<pinref part="X5" gate="A" pin="A10"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-104.14" x2="322.58" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-101.6" x2="337.82" y2="-101.6" width="0.1524" layer="91"/>
 <label x="322.58" y="-101.6" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A10"/>
+<pinref part="X6" gate="A" pin="A10"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-104.14" x2="403.86" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-101.6" x2="419.1" y2="-101.6" width="0.1524" layer="91"/>
 <label x="403.86" y="-101.6" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A10"/>
+<pinref part="X7" gate="A" pin="A10"/>
 </segment>
 </net>
 <net name="A11" class="0">
@@ -13488,43 +13488,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-106.68" x2="-83.82" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-104.14" x2="-68.58" y2="-104.14" width="0.1524" layer="91"/>
 <label x="-83.82" y="-104.14" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A11"/>
+<pinref part="X1" gate="A" pin="A11"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-106.68" x2="-2.54" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-104.14" x2="12.7" y2="-104.14" width="0.1524" layer="91"/>
 <label x="-2.54" y="-104.14" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A11"/>
+<pinref part="X2" gate="A" pin="A11"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-106.68" x2="78.74" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-104.14" x2="93.98" y2="-104.14" width="0.1524" layer="91"/>
 <label x="78.74" y="-104.14" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A11"/>
+<pinref part="X3" gate="A" pin="A11"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-106.68" x2="160.02" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-104.14" x2="175.26" y2="-104.14" width="0.1524" layer="91"/>
 <label x="160.02" y="-104.14" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A11"/>
+<pinref part="X4" gate="A" pin="A11"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-106.68" x2="241.3" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-104.14" x2="256.54" y2="-104.14" width="0.1524" layer="91"/>
 <label x="241.3" y="-104.14" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A11"/>
+<pinref part="X5" gate="A" pin="A11"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-106.68" x2="322.58" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-104.14" x2="337.82" y2="-104.14" width="0.1524" layer="91"/>
 <label x="322.58" y="-104.14" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A11"/>
+<pinref part="X6" gate="A" pin="A11"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-106.68" x2="403.86" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-104.14" x2="419.1" y2="-104.14" width="0.1524" layer="91"/>
 <label x="403.86" y="-104.14" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A11"/>
+<pinref part="X7" gate="A" pin="A11"/>
 </segment>
 </net>
 <net name="A12" class="0">
@@ -13538,43 +13538,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-109.22" x2="-83.82" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-106.68" x2="-68.58" y2="-106.68" width="0.1524" layer="91"/>
 <label x="-83.82" y="-106.68" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A12"/>
+<pinref part="X1" gate="A" pin="A12"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-109.22" x2="-2.54" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-106.68" x2="12.7" y2="-106.68" width="0.1524" layer="91"/>
 <label x="-2.54" y="-106.68" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A12"/>
+<pinref part="X2" gate="A" pin="A12"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-109.22" x2="78.74" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-106.68" x2="93.98" y2="-106.68" width="0.1524" layer="91"/>
 <label x="78.74" y="-106.68" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A12"/>
+<pinref part="X3" gate="A" pin="A12"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-109.22" x2="160.02" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-106.68" x2="175.26" y2="-106.68" width="0.1524" layer="91"/>
 <label x="160.02" y="-106.68" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A12"/>
+<pinref part="X4" gate="A" pin="A12"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-109.22" x2="241.3" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-106.68" x2="256.54" y2="-106.68" width="0.1524" layer="91"/>
 <label x="241.3" y="-106.68" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A12"/>
+<pinref part="X5" gate="A" pin="A12"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-109.22" x2="322.58" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-106.68" x2="337.82" y2="-106.68" width="0.1524" layer="91"/>
 <label x="322.58" y="-106.68" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A12"/>
+<pinref part="X6" gate="A" pin="A12"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-109.22" x2="403.86" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-106.68" x2="419.1" y2="-106.68" width="0.1524" layer="91"/>
 <label x="403.86" y="-106.68" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A12"/>
+<pinref part="X7" gate="A" pin="A12"/>
 </segment>
 </net>
 <net name="A13" class="0">
@@ -13588,43 +13588,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-111.76" x2="-83.82" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-109.22" x2="-68.58" y2="-109.22" width="0.1524" layer="91"/>
 <label x="-83.82" y="-109.22" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="A13"/>
+<pinref part="X1" gate="A" pin="A13"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-111.76" x2="-2.54" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-109.22" x2="12.7" y2="-109.22" width="0.1524" layer="91"/>
 <label x="-2.54" y="-109.22" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="A13"/>
+<pinref part="X2" gate="A" pin="A13"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-111.76" x2="78.74" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-109.22" x2="93.98" y2="-109.22" width="0.1524" layer="91"/>
 <label x="78.74" y="-109.22" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="A13"/>
+<pinref part="X3" gate="A" pin="A13"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-111.76" x2="160.02" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-109.22" x2="175.26" y2="-109.22" width="0.1524" layer="91"/>
 <label x="160.02" y="-109.22" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="A13"/>
+<pinref part="X4" gate="A" pin="A13"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-111.76" x2="241.3" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-109.22" x2="256.54" y2="-109.22" width="0.1524" layer="91"/>
 <label x="241.3" y="-109.22" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="A13"/>
+<pinref part="X5" gate="A" pin="A13"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-111.76" x2="322.58" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-109.22" x2="337.82" y2="-109.22" width="0.1524" layer="91"/>
 <label x="322.58" y="-109.22" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="A13"/>
+<pinref part="X6" gate="A" pin="A13"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-111.76" x2="403.86" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-109.22" x2="419.1" y2="-109.22" width="0.1524" layer="91"/>
 <label x="403.86" y="-109.22" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="A13"/>
+<pinref part="X7" gate="A" pin="A13"/>
 </segment>
 </net>
 <net name="!IO2" class="0">
@@ -13714,43 +13714,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-116.84" x2="-83.82" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-114.3" x2="-68.58" y2="-114.3" width="0.1524" layer="91"/>
 <label x="-83.82" y="-114.3" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="PHI2"/>
+<pinref part="X1" gate="A" pin="PHI2"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-116.84" x2="-2.54" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-114.3" x2="12.7" y2="-114.3" width="0.1524" layer="91"/>
 <label x="-2.54" y="-114.3" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="PHI2"/>
+<pinref part="X2" gate="A" pin="PHI2"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-116.84" x2="78.74" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-114.3" x2="93.98" y2="-114.3" width="0.1524" layer="91"/>
 <label x="78.74" y="-114.3" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="PHI2"/>
+<pinref part="X3" gate="A" pin="PHI2"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-116.84" x2="160.02" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-114.3" x2="175.26" y2="-114.3" width="0.1524" layer="91"/>
 <label x="160.02" y="-114.3" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="PHI2"/>
+<pinref part="X4" gate="A" pin="PHI2"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-116.84" x2="241.3" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-114.3" x2="256.54" y2="-114.3" width="0.1524" layer="91"/>
 <label x="241.3" y="-114.3" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="PHI2"/>
+<pinref part="X5" gate="A" pin="PHI2"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-116.84" x2="322.58" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-114.3" x2="337.82" y2="-114.3" width="0.1524" layer="91"/>
 <label x="322.58" y="-114.3" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="PHI2"/>
+<pinref part="X6" gate="A" pin="PHI2"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-116.84" x2="403.86" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-114.3" x2="419.1" y2="-114.3" width="0.1524" layer="91"/>
 <label x="403.86" y="-114.3" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="PHI2"/>
+<pinref part="X7" gate="A" pin="PHI2"/>
 </segment>
 </net>
 <net name="!NMI" class="0">
@@ -13764,43 +13764,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-127" x2="-22.86" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-124.46" x2="-38.1" y2="-124.46" width="0.1524" layer="91"/>
 <label x="-22.86" y="-124.46" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="!NMI"/>
+<pinref part="X1" gate="A" pin="!NMI"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-127" x2="58.42" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-124.46" x2="43.18" y2="-124.46" width="0.1524" layer="91"/>
 <label x="58.42" y="-124.46" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="!NMI"/>
+<pinref part="X2" gate="A" pin="!NMI"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-127" x2="139.7" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-124.46" x2="124.46" y2="-124.46" width="0.1524" layer="91"/>
 <label x="139.7" y="-124.46" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="!NMI"/>
+<pinref part="X3" gate="A" pin="!NMI"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-127" x2="220.98" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-124.46" x2="205.74" y2="-124.46" width="0.1524" layer="91"/>
 <label x="220.98" y="-124.46" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="!NMI"/>
+<pinref part="X4" gate="A" pin="!NMI"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-127" x2="302.26" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-124.46" x2="287.02" y2="-124.46" width="0.1524" layer="91"/>
 <label x="302.26" y="-124.46" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="!NMI"/>
+<pinref part="X5" gate="A" pin="!NMI"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-127" x2="383.54" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-124.46" x2="368.3" y2="-124.46" width="0.1524" layer="91"/>
 <label x="383.54" y="-124.46" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="!NMI"/>
+<pinref part="X6" gate="A" pin="!NMI"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-127" x2="464.82" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-124.46" x2="449.58" y2="-124.46" width="0.1524" layer="91"/>
 <label x="464.82" y="-124.46" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="!NMI"/>
+<pinref part="X7" gate="A" pin="!NMI"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
@@ -13819,43 +13819,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-86.36" y1="-73.66" x2="-83.82" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-71.12" x2="-68.58" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-83.82" y="-71.12" size="1.27" layer="95" ratio="10"/>
-<pinref part="X9" gate="A" pin="!RESET"/>
+<pinref part="X1" gate="A" pin="!RESET"/>
 </segment>
 <segment>
 <wire x1="-5.08" y1="-73.66" x2="-2.54" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-71.12" x2="12.7" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-2.54" y="-71.12" size="1.27" layer="95" ratio="10"/>
-<pinref part="X10" gate="A" pin="!RESET"/>
+<pinref part="X2" gate="A" pin="!RESET"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="-73.66" x2="78.74" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-71.12" x2="93.98" y2="-71.12" width="0.1524" layer="91"/>
 <label x="78.74" y="-71.12" size="1.27" layer="95" ratio="10"/>
-<pinref part="X11" gate="A" pin="!RESET"/>
+<pinref part="X3" gate="A" pin="!RESET"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="-73.66" x2="160.02" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-71.12" x2="175.26" y2="-71.12" width="0.1524" layer="91"/>
 <label x="160.02" y="-71.12" size="1.27" layer="95" ratio="10"/>
-<pinref part="X12" gate="A" pin="!RESET"/>
+<pinref part="X4" gate="A" pin="!RESET"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="-73.66" x2="241.3" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-71.12" x2="256.54" y2="-71.12" width="0.1524" layer="91"/>
 <label x="241.3" y="-71.12" size="1.27" layer="95" ratio="10"/>
-<pinref part="X13" gate="A" pin="!RESET"/>
+<pinref part="X5" gate="A" pin="!RESET"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="-73.66" x2="322.58" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-71.12" x2="337.82" y2="-71.12" width="0.1524" layer="91"/>
 <label x="322.58" y="-71.12" size="1.27" layer="95" ratio="10"/>
-<pinref part="X14" gate="A" pin="!RESET"/>
+<pinref part="X6" gate="A" pin="!RESET"/>
 </segment>
 <segment>
 <wire x1="401.32" y1="-73.66" x2="403.86" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-71.12" x2="419.1" y2="-71.12" width="0.1524" layer="91"/>
 <label x="403.86" y="-71.12" size="1.27" layer="95" ratio="10"/>
-<pinref part="X16" gate="A" pin="!RESET"/>
+<pinref part="X7" gate="A" pin="!RESET"/>
 </segment>
 </net>
 <net name="AUDIO'" class="0">
@@ -13866,46 +13866,34 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="AUDIO" gate="1" pin="2"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="-96.52" x2="-22.86" y2="-93.98" width="0.1524" layer="91"/>
-<label x="-22.86" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<wire x1="-22.86" y1="-93.98" x2="-38.1" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="AUDIO"/>
+<pinref part="S7" gate="-4" pin="1"/>
+<wire x1="-58.42" y1="-195.58" x2="-63.5" y2="-195.58" width="0.1524" layer="91"/>
+<label x="-63.5" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="-96.52" x2="58.42" y2="-93.98" width="0.1524" layer="91"/>
-<label x="58.42" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<wire x1="58.42" y1="-93.98" x2="43.18" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="AUDIO"/>
+<wire x1="22.86" y1="-195.58" x2="17.78" y2="-195.58" width="0.1524" layer="91"/>
+<label x="17.78" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<pinref part="S8" gate="-4" pin="1"/>
 </segment>
 <segment>
-<wire x1="142.24" y1="-96.52" x2="139.7" y2="-93.98" width="0.1524" layer="91"/>
-<label x="139.7" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<wire x1="139.7" y1="-93.98" x2="124.46" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="AUDIO"/>
+<wire x1="104.14" y1="-195.58" x2="99.06" y2="-195.58" width="0.1524" layer="91"/>
+<label x="99.06" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<pinref part="S9" gate="-4" pin="1"/>
 </segment>
 <segment>
-<wire x1="223.52" y1="-96.52" x2="220.98" y2="-93.98" width="0.1524" layer="91"/>
-<label x="220.98" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<wire x1="220.98" y1="-93.98" x2="205.74" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="AUDIO"/>
+<wire x1="185.42" y1="-195.58" x2="180.34" y2="-195.58" width="0.1524" layer="91"/>
+<label x="180.34" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<pinref part="S10" gate="-4" pin="1"/>
 </segment>
 <segment>
-<wire x1="304.8" y1="-96.52" x2="302.26" y2="-93.98" width="0.1524" layer="91"/>
-<label x="302.26" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<wire x1="302.26" y1="-93.98" x2="287.02" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="AUDIO"/>
+<wire x1="266.7" y1="-195.58" x2="261.62" y2="-195.58" width="0.1524" layer="91"/>
+<label x="261.62" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<pinref part="S11" gate="-4" pin="1"/>
 </segment>
 <segment>
-<wire x1="386.08" y1="-96.52" x2="383.54" y2="-93.98" width="0.1524" layer="91"/>
-<label x="383.54" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<wire x1="383.54" y1="-93.98" x2="368.3" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="AUDIO"/>
-</segment>
-<segment>
-<wire x1="467.36" y1="-96.52" x2="464.82" y2="-93.98" width="0.1524" layer="91"/>
-<label x="464.82" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<wire x1="464.82" y1="-93.98" x2="449.58" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="X16" gate="A" pin="AUDIO"/>
+<wire x1="347.98" y1="-195.58" x2="342.9" y2="-195.58" width="0.1524" layer="91"/>
+<label x="342.9" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
+<pinref part="S12" gate="-4" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13996,150 +13984,150 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X9" gate="P" pin="GND"/>
+<pinref part="X1" gate="P" pin="GND"/>
 <wire x1="-60.96" y1="-55.88" x2="-60.96" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X9" gate="P" pin="GND@1"/>
+<pinref part="X1" gate="P" pin="GND@1"/>
 <wire x1="-55.88" y1="-55.88" x2="-55.88" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X9" gate="P" pin="GND@2"/>
+<pinref part="X1" gate="P" pin="GND@2"/>
 <wire x1="-50.8" y1="-55.88" x2="-50.8" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X9" gate="P" pin="GND@3"/>
+<pinref part="X1" gate="P" pin="GND@3"/>
 <wire x1="-45.72" y1="-55.88" x2="-45.72" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X10" gate="P" pin="GND"/>
+<pinref part="X2" gate="P" pin="GND"/>
 <wire x1="20.32" y1="-55.88" x2="20.32" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X10" gate="P" pin="GND@1"/>
+<pinref part="X2" gate="P" pin="GND@1"/>
 <wire x1="25.4" y1="-55.88" x2="25.4" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X10" gate="P" pin="GND@2"/>
+<pinref part="X2" gate="P" pin="GND@2"/>
 <wire x1="30.48" y1="-55.88" x2="30.48" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY25" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X10" gate="P" pin="GND@3"/>
+<pinref part="X2" gate="P" pin="GND@3"/>
 <wire x1="35.56" y1="-55.88" x2="35.56" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X11" gate="P" pin="GND"/>
+<pinref part="X3" gate="P" pin="GND"/>
 <wire x1="101.6" y1="-55.88" x2="101.6" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY27" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X11" gate="P" pin="GND@1"/>
+<pinref part="X3" gate="P" pin="GND@1"/>
 <wire x1="106.68" y1="-55.88" x2="106.68" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY28" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X11" gate="P" pin="GND@2"/>
+<pinref part="X3" gate="P" pin="GND@2"/>
 <wire x1="111.76" y1="-55.88" x2="111.76" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY29" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X11" gate="P" pin="GND@3"/>
+<pinref part="X3" gate="P" pin="GND@3"/>
 <wire x1="116.84" y1="-55.88" x2="116.84" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY30" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X12" gate="P" pin="GND"/>
+<pinref part="X4" gate="P" pin="GND"/>
 <wire x1="182.88" y1="-55.88" x2="182.88" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY31" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X12" gate="P" pin="GND@1"/>
+<pinref part="X4" gate="P" pin="GND@1"/>
 <wire x1="187.96" y1="-55.88" x2="187.96" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY32" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X12" gate="P" pin="GND@2"/>
+<pinref part="X4" gate="P" pin="GND@2"/>
 <wire x1="193.04" y1="-55.88" x2="193.04" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY33" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X12" gate="P" pin="GND@3"/>
+<pinref part="X4" gate="P" pin="GND@3"/>
 <wire x1="198.12" y1="-55.88" x2="198.12" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY34" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X13" gate="P" pin="GND"/>
+<pinref part="X5" gate="P" pin="GND"/>
 <wire x1="264.16" y1="-55.88" x2="264.16" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X13" gate="P" pin="GND@1"/>
+<pinref part="X5" gate="P" pin="GND@1"/>
 <wire x1="269.24" y1="-55.88" x2="269.24" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X13" gate="P" pin="GND@2"/>
+<pinref part="X5" gate="P" pin="GND@2"/>
 <wire x1="274.32" y1="-55.88" x2="274.32" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X13" gate="P" pin="GND@3"/>
+<pinref part="X5" gate="P" pin="GND@3"/>
 <wire x1="279.4" y1="-55.88" x2="279.4" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY38" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X14" gate="P" pin="GND"/>
+<pinref part="X6" gate="P" pin="GND"/>
 <wire x1="345.44" y1="-55.88" x2="345.44" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY39" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X14" gate="P" pin="GND@1"/>
+<pinref part="X6" gate="P" pin="GND@1"/>
 <wire x1="350.52" y1="-55.88" x2="350.52" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY40" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X14" gate="P" pin="GND@2"/>
+<pinref part="X6" gate="P" pin="GND@2"/>
 <wire x1="355.6" y1="-55.88" x2="355.6" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY41" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X14" gate="P" pin="GND@3"/>
+<pinref part="X6" gate="P" pin="GND@3"/>
 <wire x1="360.68" y1="-55.88" x2="360.68" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY42" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <wire x1="426.72" y1="-55.88" x2="426.72" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY43" gate="GND" pin="GND"/>
-<pinref part="X16" gate="P" pin="GND"/>
+<pinref part="X7" gate="P" pin="GND"/>
 </segment>
 <segment>
 <wire x1="431.8" y1="-55.88" x2="431.8" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY44" gate="GND" pin="GND"/>
-<pinref part="X16" gate="P" pin="GND@1"/>
+<pinref part="X7" gate="P" pin="GND@1"/>
 </segment>
 <segment>
 <wire x1="436.88" y1="-55.88" x2="436.88" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY45" gate="GND" pin="GND"/>
-<pinref part="X16" gate="P" pin="GND@2"/>
+<pinref part="X7" gate="P" pin="GND@2"/>
 </segment>
 <segment>
 <wire x1="441.96" y1="-55.88" x2="441.96" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY46" gate="GND" pin="GND"/>
-<pinref part="X16" gate="P" pin="GND@3"/>
+<pinref part="X7" gate="P" pin="GND@3"/>
 </segment>
 </net>
 <net name="!BLK1_1" class="0">
 <segment>
 <wire x1="-17.78" y1="-106.68" x2="-38.1" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="!BLK1"/>
+<pinref part="X1" gate="A" pin="!BLK1"/>
 <label x="-17.78" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14156,7 +14144,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO2_1" class="0">
 <segment>
 <wire x1="-17.78" y1="-116.84" x2="-38.1" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="!IO2"/>
+<pinref part="X1" gate="A" pin="!IO2"/>
 <label x="-17.78" y="-116.84" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14173,7 +14161,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO3_1" class="0">
 <segment>
 <wire x1="-17.78" y1="-119.38" x2="-38.1" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="!IO3"/>
+<pinref part="X1" gate="A" pin="!IO3"/>
 <label x="-17.78" y="-119.38" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14190,7 +14178,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK2_1" class="0">
 <segment>
 <wire x1="-17.78" y1="-109.22" x2="-38.1" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="!BLK2"/>
+<pinref part="X1" gate="A" pin="!BLK2"/>
 <label x="-17.78" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14207,7 +14195,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK3_1" class="0">
 <segment>
 <wire x1="-17.78" y1="-111.76" x2="-38.1" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="!BLK3"/>
+<pinref part="X1" gate="A" pin="!BLK3"/>
 <label x="-17.78" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14224,7 +14212,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK5_1" class="0">
 <segment>
 <wire x1="-17.78" y1="-114.3" x2="-38.1" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="!BLK5"/>
+<pinref part="X1" gate="A" pin="!BLK5"/>
 <label x="-17.78" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14442,43 +14430,43 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-73.66" x2="-22.86" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-71.12" x2="-38.1" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-22.86" y="-71.12" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="D0"/>
+<pinref part="X1" gate="A" pin="D0"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-73.66" x2="58.42" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-71.12" x2="43.18" y2="-71.12" width="0.1524" layer="91"/>
 <label x="58.42" y="-71.12" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="D0"/>
+<pinref part="X2" gate="A" pin="D0"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-73.66" x2="139.7" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-71.12" x2="124.46" y2="-71.12" width="0.1524" layer="91"/>
 <label x="139.7" y="-71.12" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="D0"/>
+<pinref part="X3" gate="A" pin="D0"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-73.66" x2="220.98" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-71.12" x2="205.74" y2="-71.12" width="0.1524" layer="91"/>
 <label x="220.98" y="-71.12" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="D0"/>
+<pinref part="X4" gate="A" pin="D0"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-73.66" x2="302.26" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-71.12" x2="287.02" y2="-71.12" width="0.1524" layer="91"/>
 <label x="302.26" y="-71.12" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="D0"/>
+<pinref part="X5" gate="A" pin="D0"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-73.66" x2="383.54" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-71.12" x2="368.3" y2="-71.12" width="0.1524" layer="91"/>
 <label x="383.54" y="-71.12" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="D0"/>
+<pinref part="X6" gate="A" pin="D0"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-73.66" x2="464.82" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-71.12" x2="449.58" y2="-71.12" width="0.1524" layer="91"/>
 <label x="464.82" y="-71.12" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="D0"/>
+<pinref part="X7" gate="A" pin="D0"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -14492,49 +14480,49 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-20.32" y1="-76.2" x2="-22.86" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-73.66" x2="-38.1" y2="-73.66" width="0.1524" layer="91"/>
 <label x="-22.86" y="-73.66" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X9" gate="A" pin="D1"/>
+<pinref part="X1" gate="A" pin="D1"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="-76.2" x2="58.42" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-73.66" x2="43.18" y2="-73.66" width="0.1524" layer="91"/>
 <label x="58.42" y="-73.66" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X10" gate="A" pin="D1"/>
+<pinref part="X2" gate="A" pin="D1"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="-76.2" x2="139.7" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-73.66" x2="124.46" y2="-73.66" width="0.1524" layer="91"/>
 <label x="139.7" y="-73.66" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X11" gate="A" pin="D1"/>
+<pinref part="X3" gate="A" pin="D1"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="-76.2" x2="220.98" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-73.66" x2="205.74" y2="-73.66" width="0.1524" layer="91"/>
 <label x="220.98" y="-73.66" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X12" gate="A" pin="D1"/>
+<pinref part="X4" gate="A" pin="D1"/>
 </segment>
 <segment>
 <wire x1="304.8" y1="-76.2" x2="302.26" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-73.66" x2="287.02" y2="-73.66" width="0.1524" layer="91"/>
 <label x="302.26" y="-73.66" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X13" gate="A" pin="D1"/>
+<pinref part="X5" gate="A" pin="D1"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="-76.2" x2="383.54" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="-73.66" x2="368.3" y2="-73.66" width="0.1524" layer="91"/>
 <label x="383.54" y="-73.66" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X14" gate="A" pin="D1"/>
+<pinref part="X6" gate="A" pin="D1"/>
 </segment>
 <segment>
 <wire x1="467.36" y1="-76.2" x2="464.82" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-73.66" x2="449.58" y2="-73.66" width="0.1524" layer="91"/>
 <label x="464.82" y="-73.66" size="1.27" layer="95" ratio="10" rot="MR0"/>
-<pinref part="X16" gate="A" pin="D1"/>
+<pinref part="X7" gate="A" pin="D1"/>
 </segment>
 </net>
 <net name="!RAM1_1" class="0">
 <segment>
 <wire x1="-17.78" y1="-99.06" x2="-38.1" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="!RAM1"/>
+<pinref part="X1" gate="A" pin="!RAM1"/>
 <label x="-17.78" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14551,7 +14539,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM2_1" class="0">
 <segment>
 <wire x1="-17.78" y1="-101.6" x2="-38.1" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="!RAM2"/>
+<pinref part="X1" gate="A" pin="!RAM2"/>
 <label x="-17.78" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14568,7 +14556,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM3_1" class="0">
 <segment>
 <wire x1="-17.78" y1="-104.14" x2="-38.1" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="X9" gate="A" pin="!RAM3"/>
+<pinref part="X1" gate="A" pin="!RAM3"/>
 <label x="-17.78" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14737,7 +14725,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="VCC_1" class="0">
 <segment>
-<pinref part="X9" gate="P" pin="VCC"/>
+<pinref part="X1" gate="P" pin="VCC"/>
 <wire x1="-53.34" y1="-35.56" x2="-53.34" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-53.34" y="-33.02" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
@@ -14778,7 +14766,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM1_2" class="0">
 <segment>
 <wire x1="63.5" y1="-99.06" x2="43.18" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="!RAM1"/>
+<pinref part="X2" gate="A" pin="!RAM1"/>
 <label x="63.5" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14795,7 +14783,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM2_2" class="0">
 <segment>
 <wire x1="63.5" y1="-101.6" x2="43.18" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="!RAM2"/>
+<pinref part="X2" gate="A" pin="!RAM2"/>
 <label x="63.5" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14812,7 +14800,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM3_2" class="0">
 <segment>
 <wire x1="63.5" y1="-104.14" x2="43.18" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="!RAM3"/>
+<pinref part="X2" gate="A" pin="!RAM3"/>
 <label x="63.5" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14829,7 +14817,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK1_2" class="0">
 <segment>
 <wire x1="63.5" y1="-106.68" x2="43.18" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="!BLK1"/>
+<pinref part="X2" gate="A" pin="!BLK1"/>
 <label x="63.5" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14846,7 +14834,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK2_2" class="0">
 <segment>
 <wire x1="63.5" y1="-109.22" x2="43.18" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="!BLK2"/>
+<pinref part="X2" gate="A" pin="!BLK2"/>
 <label x="63.5" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14863,7 +14851,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK3_2" class="0">
 <segment>
 <wire x1="63.5" y1="-111.76" x2="43.18" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="!BLK3"/>
+<pinref part="X2" gate="A" pin="!BLK3"/>
 <label x="63.5" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14880,7 +14868,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK5_2" class="0">
 <segment>
 <wire x1="63.5" y1="-114.3" x2="43.18" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="!BLK5"/>
+<pinref part="X2" gate="A" pin="!BLK5"/>
 <label x="63.5" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14897,7 +14885,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO2_2" class="0">
 <segment>
 <wire x1="63.5" y1="-116.84" x2="43.18" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="!IO2"/>
+<pinref part="X2" gate="A" pin="!IO2"/>
 <label x="63.5" y="-116.84" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14909,7 +14897,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO3_2" class="0">
 <segment>
 <wire x1="63.5" y1="-119.38" x2="43.18" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="X10" gate="A" pin="!IO3"/>
+<pinref part="X2" gate="A" pin="!IO3"/>
 <label x="63.5" y="-119.38" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14920,7 +14908,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="VCC_2" class="0">
 <segment>
-<pinref part="X10" gate="P" pin="VCC"/>
+<pinref part="X2" gate="P" pin="VCC"/>
 <wire x1="27.94" y1="-35.56" x2="27.94" y2="-33.02" width="0.1524" layer="91"/>
 <label x="27.94" y="-33.02" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
@@ -14948,7 +14936,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM1_3" class="0">
 <segment>
 <wire x1="144.78" y1="-99.06" x2="124.46" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="!RAM1"/>
+<pinref part="X3" gate="A" pin="!RAM1"/>
 <label x="144.78" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14965,7 +14953,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM2_3" class="0">
 <segment>
 <wire x1="144.78" y1="-101.6" x2="124.46" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="!RAM2"/>
+<pinref part="X3" gate="A" pin="!RAM2"/>
 <label x="144.78" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14982,7 +14970,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM3_3" class="0">
 <segment>
 <wire x1="144.78" y1="-104.14" x2="124.46" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="!RAM3"/>
+<pinref part="X3" gate="A" pin="!RAM3"/>
 <label x="144.78" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -14999,7 +14987,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK1_3" class="0">
 <segment>
 <wire x1="144.78" y1="-106.68" x2="124.46" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="!BLK1"/>
+<pinref part="X3" gate="A" pin="!BLK1"/>
 <label x="144.78" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15016,7 +15004,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK2_3" class="0">
 <segment>
 <wire x1="144.78" y1="-109.22" x2="124.46" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="!BLK2"/>
+<pinref part="X3" gate="A" pin="!BLK2"/>
 <label x="144.78" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15033,7 +15021,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK3_3" class="0">
 <segment>
 <wire x1="144.78" y1="-111.76" x2="124.46" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="!BLK3"/>
+<pinref part="X3" gate="A" pin="!BLK3"/>
 <label x="144.78" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15050,7 +15038,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK5_3" class="0">
 <segment>
 <wire x1="144.78" y1="-114.3" x2="124.46" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="!BLK5"/>
+<pinref part="X3" gate="A" pin="!BLK5"/>
 <label x="144.78" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15067,7 +15055,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO2_3" class="0">
 <segment>
 <wire x1="144.78" y1="-116.84" x2="124.46" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="!IO2"/>
+<pinref part="X3" gate="A" pin="!IO2"/>
 <label x="144.78" y="-116.84" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15079,7 +15067,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO3_3" class="0">
 <segment>
 <wire x1="144.78" y1="-119.38" x2="124.46" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="X11" gate="A" pin="!IO3"/>
+<pinref part="X3" gate="A" pin="!IO3"/>
 <label x="144.78" y="-119.38" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15090,7 +15078,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="VCC_3" class="0">
 <segment>
-<pinref part="X11" gate="P" pin="VCC"/>
+<pinref part="X3" gate="P" pin="VCC"/>
 <wire x1="109.22" y1="-35.56" x2="109.22" y2="-33.02" width="0.1524" layer="91"/>
 <label x="109.22" y="-33.02" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
@@ -15117,7 +15105,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="VCC_4" class="0">
 <segment>
-<pinref part="X12" gate="P" pin="VCC"/>
+<pinref part="X4" gate="P" pin="VCC"/>
 <wire x1="190.5" y1="-35.56" x2="190.5" y2="-33.02" width="0.1524" layer="91"/>
 <label x="190.5" y="-33.02" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
@@ -15145,7 +15133,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM1_4" class="0">
 <segment>
 <wire x1="226.06" y1="-99.06" x2="205.74" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="!RAM1"/>
+<pinref part="X4" gate="A" pin="!RAM1"/>
 <label x="226.06" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15162,7 +15150,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM2_4" class="0">
 <segment>
 <wire x1="226.06" y1="-101.6" x2="205.74" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="!RAM2"/>
+<pinref part="X4" gate="A" pin="!RAM2"/>
 <label x="226.06" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15179,7 +15167,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM3_4" class="0">
 <segment>
 <wire x1="226.06" y1="-104.14" x2="205.74" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="!RAM3"/>
+<pinref part="X4" gate="A" pin="!RAM3"/>
 <label x="226.06" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15196,7 +15184,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK1_4" class="0">
 <segment>
 <wire x1="226.06" y1="-106.68" x2="205.74" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="!BLK1"/>
+<pinref part="X4" gate="A" pin="!BLK1"/>
 <label x="226.06" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15213,7 +15201,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK2_4" class="0">
 <segment>
 <wire x1="226.06" y1="-109.22" x2="205.74" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="!BLK2"/>
+<pinref part="X4" gate="A" pin="!BLK2"/>
 <label x="226.06" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15230,7 +15218,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK3_4" class="0">
 <segment>
 <wire x1="226.06" y1="-111.76" x2="205.74" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="!BLK3"/>
+<pinref part="X4" gate="A" pin="!BLK3"/>
 <label x="226.06" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15247,7 +15235,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK5_4" class="0">
 <segment>
 <wire x1="226.06" y1="-114.3" x2="205.74" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="!BLK5"/>
+<pinref part="X4" gate="A" pin="!BLK5"/>
 <label x="226.06" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15264,7 +15252,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO2_4" class="0">
 <segment>
 <wire x1="226.06" y1="-116.84" x2="205.74" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="!IO2"/>
+<pinref part="X4" gate="A" pin="!IO2"/>
 <label x="226.06" y="-116.84" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15276,7 +15264,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO3_4" class="0">
 <segment>
 <wire x1="226.06" y1="-119.38" x2="205.74" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="X12" gate="A" pin="!IO3"/>
+<pinref part="X4" gate="A" pin="!IO3"/>
 <label x="226.06" y="-119.38" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15287,7 +15275,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="VCC_5" class="0">
 <segment>
-<pinref part="X13" gate="P" pin="VCC"/>
+<pinref part="X5" gate="P" pin="VCC"/>
 <wire x1="271.78" y1="-35.56" x2="271.78" y2="-33.02" width="0.1524" layer="91"/>
 <label x="271.78" y="-33.02" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
@@ -15315,7 +15303,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM1_5" class="0">
 <segment>
 <wire x1="307.34" y1="-99.06" x2="287.02" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="!RAM1"/>
+<pinref part="X5" gate="A" pin="!RAM1"/>
 <label x="307.34" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15332,7 +15320,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM2_5" class="0">
 <segment>
 <wire x1="307.34" y1="-101.6" x2="287.02" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="!RAM2"/>
+<pinref part="X5" gate="A" pin="!RAM2"/>
 <label x="307.34" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15349,7 +15337,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM3_5" class="0">
 <segment>
 <wire x1="307.34" y1="-104.14" x2="287.02" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="!RAM3"/>
+<pinref part="X5" gate="A" pin="!RAM3"/>
 <label x="307.34" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15366,7 +15354,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK1_5" class="0">
 <segment>
 <wire x1="307.34" y1="-106.68" x2="287.02" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="!BLK1"/>
+<pinref part="X5" gate="A" pin="!BLK1"/>
 <label x="307.34" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15383,7 +15371,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK2_5" class="0">
 <segment>
 <wire x1="307.34" y1="-109.22" x2="287.02" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="!BLK2"/>
+<pinref part="X5" gate="A" pin="!BLK2"/>
 <label x="307.34" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15400,7 +15388,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK3_5" class="0">
 <segment>
 <wire x1="307.34" y1="-111.76" x2="287.02" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="!BLK3"/>
+<pinref part="X5" gate="A" pin="!BLK3"/>
 <label x="307.34" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15417,7 +15405,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK5_5" class="0">
 <segment>
 <wire x1="307.34" y1="-114.3" x2="287.02" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="!BLK5"/>
+<pinref part="X5" gate="A" pin="!BLK5"/>
 <label x="307.34" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15434,7 +15422,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO2_5" class="0">
 <segment>
 <wire x1="307.34" y1="-116.84" x2="287.02" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="!IO2"/>
+<pinref part="X5" gate="A" pin="!IO2"/>
 <label x="307.34" y="-116.84" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15446,7 +15434,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO3_5" class="0">
 <segment>
 <wire x1="307.34" y1="-119.38" x2="287.02" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="X13" gate="A" pin="!IO3"/>
+<pinref part="X5" gate="A" pin="!IO3"/>
 <label x="307.34" y="-119.38" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -15457,14 +15445,14 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="VCC_6" class="0">
 <segment>
-<pinref part="X14" gate="P" pin="VCC"/>
+<pinref part="X6" gate="P" pin="VCC"/>
 <wire x1="353.06" y1="-35.56" x2="353.06" y2="-33.02" width="0.1524" layer="91"/>
 <label x="353.06" y="-33.02" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="434.34" y1="-35.56" x2="434.34" y2="-33.02" width="0.1524" layer="91"/>
 <label x="434.34" y="-33.02" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
-<pinref part="X16" gate="P" pin="VCC"/>
+<pinref part="X7" gate="P" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="358.14" y1="-304.8" x2="358.14" y2="-307.34" width="0.1524" layer="91"/>
@@ -15490,13 +15478,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM1_6" class="0">
 <segment>
 <wire x1="388.62" y1="-99.06" x2="368.3" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="!RAM1"/>
+<pinref part="X6" gate="A" pin="!RAM1"/>
 <label x="388.62" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="-99.06" x2="449.58" y2="-99.06" width="0.1524" layer="91"/>
 <label x="469.9" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="X16" gate="A" pin="!RAM1"/>
+<pinref part="X7" gate="A" pin="!RAM1"/>
 </segment>
 <segment>
 <pinref part="S12" gate="-1" pin="2"/>
@@ -15512,13 +15500,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM2_6" class="0">
 <segment>
 <wire x1="388.62" y1="-101.6" x2="368.3" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="!RAM2"/>
+<pinref part="X6" gate="A" pin="!RAM2"/>
 <label x="388.62" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="-101.6" x2="449.58" y2="-101.6" width="0.1524" layer="91"/>
 <label x="469.9" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="X16" gate="A" pin="!RAM2"/>
+<pinref part="X7" gate="A" pin="!RAM2"/>
 </segment>
 <segment>
 <pinref part="S12" gate="-2" pin="2"/>
@@ -15534,13 +15522,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RAM3_6" class="0">
 <segment>
 <wire x1="388.62" y1="-104.14" x2="368.3" y2="-104.14" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="!RAM3"/>
+<pinref part="X6" gate="A" pin="!RAM3"/>
 <label x="388.62" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="-104.14" x2="449.58" y2="-104.14" width="0.1524" layer="91"/>
 <label x="469.9" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="X16" gate="A" pin="!RAM3"/>
+<pinref part="X7" gate="A" pin="!RAM3"/>
 </segment>
 <segment>
 <pinref part="S12" gate="-3" pin="2"/>
@@ -15556,13 +15544,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK1_6" class="0">
 <segment>
 <wire x1="388.62" y1="-106.68" x2="368.3" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="!BLK1"/>
+<pinref part="X6" gate="A" pin="!BLK1"/>
 <label x="388.62" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="-106.68" x2="449.58" y2="-106.68" width="0.1524" layer="91"/>
 <label x="469.9" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="X16" gate="A" pin="!BLK1"/>
+<pinref part="X7" gate="A" pin="!BLK1"/>
 </segment>
 <segment>
 <pinref part="S6" gate="-5" pin="2"/>
@@ -15578,13 +15566,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK2_6" class="0">
 <segment>
 <wire x1="388.62" y1="-109.22" x2="368.3" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="!BLK2"/>
+<pinref part="X6" gate="A" pin="!BLK2"/>
 <label x="388.62" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="-109.22" x2="449.58" y2="-109.22" width="0.1524" layer="91"/>
 <label x="469.9" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="X16" gate="A" pin="!BLK2"/>
+<pinref part="X7" gate="A" pin="!BLK2"/>
 </segment>
 <segment>
 <pinref part="S6" gate="-6" pin="2"/>
@@ -15600,13 +15588,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK3_6" class="0">
 <segment>
 <wire x1="388.62" y1="-111.76" x2="368.3" y2="-111.76" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="!BLK3"/>
+<pinref part="X6" gate="A" pin="!BLK3"/>
 <label x="388.62" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="-111.76" x2="449.58" y2="-111.76" width="0.1524" layer="91"/>
 <label x="469.9" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="X16" gate="A" pin="!BLK3"/>
+<pinref part="X7" gate="A" pin="!BLK3"/>
 </segment>
 <segment>
 <pinref part="S6" gate="-7" pin="2"/>
@@ -15622,13 +15610,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!BLK5_6" class="0">
 <segment>
 <wire x1="388.62" y1="-114.3" x2="368.3" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="!BLK5"/>
+<pinref part="X6" gate="A" pin="!BLK5"/>
 <label x="388.62" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="-114.3" x2="449.58" y2="-114.3" width="0.1524" layer="91"/>
 <label x="469.9" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="X16" gate="A" pin="!BLK5"/>
+<pinref part="X7" gate="A" pin="!BLK5"/>
 </segment>
 <segment>
 <pinref part="S6" gate="-8" pin="2"/>
@@ -15644,13 +15632,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO2_6" class="0">
 <segment>
 <wire x1="388.62" y1="-116.84" x2="368.3" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="!IO2"/>
+<pinref part="X6" gate="A" pin="!IO2"/>
 <label x="388.62" y="-116.84" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="-116.84" x2="449.58" y2="-116.84" width="0.1524" layer="91"/>
 <label x="469.9" y="-116.84" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="X16" gate="A" pin="!IO2"/>
+<pinref part="X7" gate="A" pin="!IO2"/>
 </segment>
 <segment>
 <wire x1="347.98" y1="-287.02" x2="345.44" y2="-287.02" width="0.1524" layer="91"/>
@@ -15661,13 +15649,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!IO3_6" class="0">
 <segment>
 <wire x1="388.62" y1="-119.38" x2="368.3" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="X14" gate="A" pin="!IO3"/>
+<pinref part="X6" gate="A" pin="!IO3"/>
 <label x="388.62" y="-119.38" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
 <wire x1="469.9" y1="-119.38" x2="449.58" y2="-119.38" width="0.1524" layer="91"/>
 <label x="469.9" y="-119.38" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="X16" gate="A" pin="!IO3"/>
+<pinref part="X7" gate="A" pin="!IO3"/>
 </segment>
 <segment>
 <wire x1="347.98" y1="-276.86" x2="345.44" y2="-276.86" width="0.1524" layer="91"/>
@@ -15724,6 +15712,90 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X8" gate="G$1" pin="AUDIO"/>
 <pinref part="AUDIO" gate="1" pin="1"/>
 <wire x1="-106.68" y1="-93.98" x2="-109.22" y2="-93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUDIO'_6" class="0">
+<segment>
+<wire x1="358.14" y1="-195.58" x2="363.22" y2="-195.58" width="0.1524" layer="91"/>
+<label x="363.22" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="S12" gate="-4" pin="2"/>
+</segment>
+<segment>
+<label x="383.54" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
+<wire x1="388.62" y1="-93.98" x2="368.3" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="X6" gate="A" pin="AUDIO"/>
+<label x="388.62" y="-93.98" size="1.27" layer="95" ratio="10" xref="yes"/>
+</segment>
+<segment>
+<label x="464.82" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
+<wire x1="469.9" y1="-93.98" x2="449.58" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="X7" gate="A" pin="AUDIO"/>
+<label x="469.9" y="-93.98" size="1.27" layer="95" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="AUDIO'_1" class="0">
+<segment>
+<wire x1="-48.26" y1="-195.58" x2="-43.18" y2="-195.58" width="0.1524" layer="91"/>
+<label x="-43.18" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="S7" gate="-4" pin="2"/>
+</segment>
+<segment>
+<label x="-22.86" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
+<wire x1="-17.78" y1="-93.98" x2="-38.1" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="X1" gate="A" pin="AUDIO"/>
+<label x="-17.78" y="-93.98" size="1.27" layer="95" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="AUDIO'_2" class="0">
+<segment>
+<wire x1="33.02" y1="-195.58" x2="38.1" y2="-195.58" width="0.1524" layer="91"/>
+<label x="38.1" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="S8" gate="-4" pin="2"/>
+</segment>
+<segment>
+<label x="58.42" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
+<wire x1="63.5" y1="-93.98" x2="43.18" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="X2" gate="A" pin="AUDIO"/>
+<label x="63.5" y="-93.98" size="1.27" layer="95" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="AUDIO'_3" class="0">
+<segment>
+<wire x1="114.3" y1="-195.58" x2="119.38" y2="-195.58" width="0.1524" layer="91"/>
+<label x="119.38" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="S9" gate="-4" pin="2"/>
+</segment>
+<segment>
+<label x="139.7" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
+<wire x1="144.78" y1="-93.98" x2="124.46" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="X3" gate="A" pin="AUDIO"/>
+<label x="144.78" y="-93.98" size="1.27" layer="95" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="AUDIO'_4" class="0">
+<segment>
+<wire x1="195.58" y1="-195.58" x2="200.66" y2="-195.58" width="0.1524" layer="91"/>
+<label x="200.66" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="S10" gate="-4" pin="2"/>
+</segment>
+<segment>
+<label x="220.98" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
+<wire x1="226.06" y1="-93.98" x2="205.74" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="X4" gate="A" pin="AUDIO"/>
+<label x="226.06" y="-93.98" size="1.27" layer="95" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="AUDIO'_5" class="0">
+<segment>
+<wire x1="276.86" y1="-195.58" x2="281.94" y2="-195.58" width="0.1524" layer="91"/>
+<label x="281.94" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
+<pinref part="S11" gate="-4" pin="2"/>
+</segment>
+<segment>
+<label x="302.26" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
+<wire x1="307.34" y1="-93.98" x2="287.02" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="X5" gate="A" pin="AUDIO"/>
+<label x="307.34" y="-93.98" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 </net>
 </nets>
