@@ -11791,7 +11791,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <parts>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM"/>
-<part name="LED3" library="led" deviceset="LED" device="3MM"/>
+<part name="LED6" library="led" deviceset="LED" device="3MM"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="0204/7" value="330"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0204/7" value="330"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="0204/7" value="330"/>
@@ -11800,31 +11800,31 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
 <part name="C2" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
-<part name="C3" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
+<part name="C6" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="SW6" library="switch" deviceset="TL46WO" device=""/>
-<part name="SW3" library="switch-omron" deviceset="31-XX" device="" value="!RESET"/>
-<part name="SW9" library="switch" deviceset="TL46WO" device=""/>
+<part name="SW1" library="switch" deviceset="TL46WO" device=""/>
+<part name="SW6" library="switch-omron" deviceset="31-XX" device="" value="!RESET"/>
+<part name="SW5" library="switch" deviceset="TL46WO" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="LED4" library="led" deviceset="LED" device="3MM"/>
+<part name="LED3" library="led" deviceset="LED" device="3MM"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="0204/7" value="330"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
-<part name="SW11" library="switch" deviceset="TL46WO" device=""/>
+<part name="C3" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
+<part name="SW2" library="switch" deviceset="TL46WO" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
-<part name="LED5" library="led" deviceset="LED" device="3MM"/>
+<part name="LED4" library="led" deviceset="LED" device="3MM"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="0204/7" value="330"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
-<part name="SW14" library="switch" deviceset="TL46WO" device=""/>
+<part name="C4" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
+<part name="SW3" library="switch" deviceset="TL46WO" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="LED6" library="led" deviceset="LED" device="3MM"/>
+<part name="LED5" library="led" deviceset="LED" device="3MM"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="0204/7" value="330"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
-<part name="SW17" library="switch" deviceset="TL46WO" device=""/>
+<part name="C5" library="rcl" deviceset="CPOL-US" device="E2,5-6E" value="47uF"/>
+<part name="SW4" library="switch" deviceset="TL46WO" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="AUDIO" library="jumper" deviceset="SJ" device=""/>
 <part name="X8" library="commodore" deviceset="PORT_EXPANSION_VIC_EDGE" device=""/>
@@ -11871,29 +11871,29 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="SUPPLY47" library="supply2" deviceset="VCC" device=""/>
 <part name="F1" library="ptc-littlefuse" deviceset="1812L" device=""/>
 <part name="S1" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
-<part name="S2" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
 <part name="S3" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
 <part name="S5" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
-<part name="S6" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
-<part name="S7" library="switch-dil-rp" deviceset="DIP04SB" device=""/>
+<part name="S9" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
+<part name="S11" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
+<part name="S2" library="switch-dil-rp" deviceset="DIP04SB" device=""/>
 <part name="RN2" library="resistor-net-rp" deviceset="RNX4" device=""/>
 <part name="RN1" library="resistor-net-rp" deviceset="RNX6" device=""/>
+<part name="S4" library="switch-dil-rp" deviceset="DIP04SB" device=""/>
+<part name="RN4" library="resistor-net-rp" deviceset="RNX4" device=""/>
+<part name="RN3" library="resistor-net-rp" deviceset="RNX6" device=""/>
+<part name="S6" library="switch-dil-rp" deviceset="DIP04SB" device=""/>
+<part name="RN6" library="resistor-net-rp" deviceset="RNX4" device=""/>
+<part name="RN5" library="resistor-net-rp" deviceset="RNX6" device=""/>
 <part name="S8" library="switch-dil-rp" deviceset="DIP04SB" device=""/>
-<part name="RN3" library="resistor-net-rp" deviceset="RNX4" device=""/>
-<part name="RN4" library="resistor-net-rp" deviceset="RNX6" device=""/>
-<part name="S9" library="switch-dil-rp" deviceset="DIP04SB" device=""/>
-<part name="RN5" library="resistor-net-rp" deviceset="RNX4" device=""/>
-<part name="RN6" library="resistor-net-rp" deviceset="RNX6" device=""/>
+<part name="RN8" library="resistor-net-rp" deviceset="RNX4" device=""/>
+<part name="RN7" library="resistor-net-rp" deviceset="RNX6" device=""/>
 <part name="S10" library="switch-dil-rp" deviceset="DIP04SB" device=""/>
-<part name="RN7" library="resistor-net-rp" deviceset="RNX4" device=""/>
-<part name="RN8" library="resistor-net-rp" deviceset="RNX6" device=""/>
-<part name="S11" library="switch-dil-rp" deviceset="DIP04SB" device=""/>
-<part name="RN9" library="resistor-net-rp" deviceset="RNX4" device=""/>
-<part name="RN10" library="resistor-net-rp" deviceset="RNX6" device=""/>
+<part name="RN10" library="resistor-net-rp" deviceset="RNX4" device=""/>
+<part name="RN9" library="resistor-net-rp" deviceset="RNX6" device=""/>
 <part name="S12" library="switch-dil-rp" deviceset="DIP04SB" device=""/>
-<part name="RN11" library="resistor-net-rp" deviceset="RNX4" device=""/>
-<part name="RN12" library="resistor-net-rp" deviceset="RNX6" device=""/>
-<part name="S4" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
+<part name="RN12" library="resistor-net-rp" deviceset="RNX4" device=""/>
+<part name="RN11" library="resistor-net-rp" deviceset="RNX6" device=""/>
+<part name="S7" library="switch-dil-rp" deviceset="DIP08SB" device=""/>
 <part name="FRAME1" library="frames" deviceset="FRAME_D_L" device=""/>
 </parts>
 <sheets>
@@ -11903,7 +11903,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instances>
 <instance part="LED1" gate="G$1" x="-48.26" y="-309.88"/>
 <instance part="LED2" gate="G$1" x="33.02" y="-309.88"/>
-<instance part="LED3" gate="G$1" x="358.14" y="-309.88"/>
+<instance part="LED6" gate="G$1" x="358.14" y="-309.88"/>
 <instance part="R1" gate="G$1" x="-48.26" y="-322.58" rot="R90"/>
 <instance part="R2" gate="G$1" x="33.02" y="-322.58" rot="R90"/>
 <instance part="R3" gate="G$1" x="358.14" y="-322.58" rot="R90"/>
@@ -11912,31 +11912,31 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instance part="SUPPLY3" gate="GND" x="358.14" y="-332.74"/>
 <instance part="C1" gate="G$1" x="-58.42" y="-309.88"/>
 <instance part="C2" gate="G$1" x="22.86" y="-309.88"/>
-<instance part="C3" gate="G$1" x="347.98" y="-309.88"/>
+<instance part="C6" gate="G$1" x="347.98" y="-309.88"/>
 <instance part="SUPPLY4" gate="GND" x="-132.08" y="-147.32"/>
-<instance part="SW6" gate="BEF1" x="27.94" y="-276.86" rot="R270"/>
-<instance part="SW3" gate="1" x="-124.46" y="-142.24" rot="R270"/>
-<instance part="SW9" gate="BEF1" x="353.06" y="-276.86" rot="R270"/>
+<instance part="SW1" gate="BEF1" x="27.94" y="-276.86" rot="R270"/>
+<instance part="SW6" gate="1" x="-124.46" y="-142.24" rot="R270"/>
+<instance part="SW5" gate="BEF1" x="353.06" y="-276.86" rot="R270"/>
 <instance part="SUPPLY5" gate="GND" x="-58.42" y="-332.74"/>
 <instance part="SUPPLY6" gate="GND" x="22.86" y="-332.74"/>
 <instance part="SUPPLY7" gate="GND" x="347.98" y="-332.74"/>
-<instance part="LED4" gate="G$1" x="114.3" y="-309.88"/>
+<instance part="LED3" gate="G$1" x="114.3" y="-309.88"/>
 <instance part="R4" gate="G$1" x="114.3" y="-322.58" rot="R90"/>
 <instance part="SUPPLY8" gate="GND" x="114.3" y="-332.74"/>
-<instance part="C4" gate="G$1" x="104.14" y="-309.88"/>
-<instance part="SW11" gate="BEF1" x="109.22" y="-276.86" rot="R270"/>
+<instance part="C3" gate="G$1" x="104.14" y="-309.88"/>
+<instance part="SW2" gate="BEF1" x="109.22" y="-276.86" rot="R270"/>
 <instance part="SUPPLY9" gate="GND" x="104.14" y="-332.74"/>
-<instance part="LED5" gate="G$1" x="195.58" y="-309.88"/>
+<instance part="LED4" gate="G$1" x="195.58" y="-309.88"/>
 <instance part="R5" gate="G$1" x="195.58" y="-322.58" rot="R90"/>
 <instance part="SUPPLY10" gate="GND" x="195.58" y="-332.74"/>
-<instance part="C5" gate="G$1" x="185.42" y="-309.88"/>
-<instance part="SW14" gate="BEF1" x="190.5" y="-276.86" rot="R270"/>
+<instance part="C4" gate="G$1" x="185.42" y="-309.88"/>
+<instance part="SW3" gate="BEF1" x="190.5" y="-276.86" rot="R270"/>
 <instance part="SUPPLY11" gate="GND" x="185.42" y="-332.74"/>
-<instance part="LED6" gate="G$1" x="276.86" y="-309.88"/>
+<instance part="LED5" gate="G$1" x="276.86" y="-309.88"/>
 <instance part="R6" gate="G$1" x="276.86" y="-322.58" rot="R90"/>
 <instance part="SUPPLY12" gate="GND" x="276.86" y="-332.74"/>
-<instance part="C6" gate="G$1" x="266.7" y="-309.88"/>
-<instance part="SW17" gate="BEF1" x="271.78" y="-276.86" rot="R270"/>
+<instance part="C5" gate="G$1" x="266.7" y="-309.88"/>
+<instance part="SW4" gate="BEF1" x="271.78" y="-276.86" rot="R270"/>
 <instance part="SUPPLY13" gate="GND" x="266.7" y="-332.74"/>
 <instance part="AUDIO" gate="1" x="-101.6" y="-93.98"/>
 <instance part="X8" gate="G$1" x="-124.46" y="-99.06"/>
@@ -11998,42 +11998,42 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instance part="S1" gate="-6" x="-53.34" y="-162.56" rot="R270"/>
 <instance part="S1" gate="-7" x="-53.34" y="-167.64" rot="R270"/>
 <instance part="S1" gate="-8" x="-53.34" y="-172.72" rot="R270"/>
-<instance part="S2" gate="-1" x="27.94" y="-137.16" rot="R270"/>
-<instance part="S2" gate="-2" x="27.94" y="-142.24" rot="R270"/>
-<instance part="S2" gate="-3" x="27.94" y="-147.32" rot="R270"/>
-<instance part="S2" gate="-4" x="27.94" y="-152.4" rot="R270"/>
-<instance part="S2" gate="-5" x="27.94" y="-157.48" rot="R270"/>
-<instance part="S2" gate="-6" x="27.94" y="-162.56" rot="R270"/>
-<instance part="S2" gate="-7" x="27.94" y="-167.64" rot="R270"/>
-<instance part="S2" gate="-8" x="27.94" y="-172.72" rot="R270"/>
-<instance part="S3" gate="-1" x="109.22" y="-137.16" rot="R270"/>
-<instance part="S3" gate="-2" x="109.22" y="-142.24" rot="R270"/>
-<instance part="S3" gate="-3" x="109.22" y="-147.32" rot="R270"/>
-<instance part="S3" gate="-4" x="109.22" y="-152.4" rot="R270"/>
-<instance part="S3" gate="-5" x="109.22" y="-157.48" rot="R270"/>
-<instance part="S3" gate="-6" x="109.22" y="-162.56" rot="R270"/>
-<instance part="S3" gate="-7" x="109.22" y="-167.64" rot="R270"/>
-<instance part="S3" gate="-8" x="109.22" y="-172.72" rot="R270"/>
-<instance part="S5" gate="-1" x="271.78" y="-137.16" rot="R270"/>
-<instance part="S5" gate="-2" x="271.78" y="-142.24" rot="R270"/>
-<instance part="S5" gate="-3" x="271.78" y="-147.32" rot="R270"/>
-<instance part="S5" gate="-4" x="271.78" y="-152.4" rot="R270"/>
-<instance part="S5" gate="-5" x="271.78" y="-157.48" rot="R270"/>
-<instance part="S5" gate="-6" x="271.78" y="-162.56" rot="R270"/>
-<instance part="S5" gate="-7" x="271.78" y="-167.64" rot="R270"/>
-<instance part="S5" gate="-8" x="271.78" y="-172.72" rot="R270"/>
-<instance part="S6" gate="-1" x="353.06" y="-137.16" rot="R270"/>
-<instance part="S6" gate="-2" x="353.06" y="-142.24" rot="R270"/>
-<instance part="S6" gate="-3" x="353.06" y="-147.32" rot="R270"/>
-<instance part="S6" gate="-4" x="353.06" y="-152.4" rot="R270"/>
-<instance part="S6" gate="-5" x="353.06" y="-157.48" rot="R270"/>
-<instance part="S6" gate="-6" x="353.06" y="-162.56" rot="R270"/>
-<instance part="S6" gate="-7" x="353.06" y="-167.64" rot="R270"/>
-<instance part="S6" gate="-8" x="353.06" y="-172.72" rot="R270"/>
-<instance part="S7" gate="-1" x="-53.34" y="-180.34" rot="R270"/>
-<instance part="S7" gate="-2" x="-53.34" y="-185.42" rot="R270"/>
-<instance part="S7" gate="-3" x="-53.34" y="-190.5" rot="R270"/>
-<instance part="S7" gate="-4" x="-53.34" y="-195.58" rot="R270"/>
+<instance part="S3" gate="-1" x="27.94" y="-137.16" rot="R270"/>
+<instance part="S3" gate="-2" x="27.94" y="-142.24" rot="R270"/>
+<instance part="S3" gate="-3" x="27.94" y="-147.32" rot="R270"/>
+<instance part="S3" gate="-4" x="27.94" y="-152.4" rot="R270"/>
+<instance part="S3" gate="-5" x="27.94" y="-157.48" rot="R270"/>
+<instance part="S3" gate="-6" x="27.94" y="-162.56" rot="R270"/>
+<instance part="S3" gate="-7" x="27.94" y="-167.64" rot="R270"/>
+<instance part="S3" gate="-8" x="27.94" y="-172.72" rot="R270"/>
+<instance part="S5" gate="-1" x="109.22" y="-137.16" rot="R270"/>
+<instance part="S5" gate="-2" x="109.22" y="-142.24" rot="R270"/>
+<instance part="S5" gate="-3" x="109.22" y="-147.32" rot="R270"/>
+<instance part="S5" gate="-4" x="109.22" y="-152.4" rot="R270"/>
+<instance part="S5" gate="-5" x="109.22" y="-157.48" rot="R270"/>
+<instance part="S5" gate="-6" x="109.22" y="-162.56" rot="R270"/>
+<instance part="S5" gate="-7" x="109.22" y="-167.64" rot="R270"/>
+<instance part="S5" gate="-8" x="109.22" y="-172.72" rot="R270"/>
+<instance part="S9" gate="-1" x="271.78" y="-137.16" rot="R270"/>
+<instance part="S9" gate="-2" x="271.78" y="-142.24" rot="R270"/>
+<instance part="S9" gate="-3" x="271.78" y="-147.32" rot="R270"/>
+<instance part="S9" gate="-4" x="271.78" y="-152.4" rot="R270"/>
+<instance part="S9" gate="-5" x="271.78" y="-157.48" rot="R270"/>
+<instance part="S9" gate="-6" x="271.78" y="-162.56" rot="R270"/>
+<instance part="S9" gate="-7" x="271.78" y="-167.64" rot="R270"/>
+<instance part="S9" gate="-8" x="271.78" y="-172.72" rot="R270"/>
+<instance part="S11" gate="-1" x="353.06" y="-137.16" rot="R270"/>
+<instance part="S11" gate="-2" x="353.06" y="-142.24" rot="R270"/>
+<instance part="S11" gate="-3" x="353.06" y="-147.32" rot="R270"/>
+<instance part="S11" gate="-4" x="353.06" y="-152.4" rot="R270"/>
+<instance part="S11" gate="-5" x="353.06" y="-157.48" rot="R270"/>
+<instance part="S11" gate="-6" x="353.06" y="-162.56" rot="R270"/>
+<instance part="S11" gate="-7" x="353.06" y="-167.64" rot="R270"/>
+<instance part="S11" gate="-8" x="353.06" y="-172.72" rot="R270"/>
+<instance part="S2" gate="-1" x="-53.34" y="-180.34" rot="R270"/>
+<instance part="S2" gate="-2" x="-53.34" y="-185.42" rot="R270"/>
+<instance part="S2" gate="-3" x="-53.34" y="-190.5" rot="R270"/>
+<instance part="S2" gate="-4" x="-53.34" y="-195.58" rot="R270"/>
 <instance part="RN2" gate="_" x="-53.34" y="-248.92"/>
 <instance part="RN2" gate="-1" x="-55.88" y="-254"/>
 <instance part="RN2" gate="-2" x="-55.88" y="-259.08"/>
@@ -12046,94 +12046,94 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <instance part="RN1" gate="-4" x="-55.88" y="-231.14"/>
 <instance part="RN1" gate="-5" x="-55.88" y="-236.22"/>
 <instance part="RN1" gate="-6" x="-55.88" y="-241.3"/>
-<instance part="S8" gate="-1" x="27.94" y="-180.34" rot="R270"/>
-<instance part="S8" gate="-2" x="27.94" y="-185.42" rot="R270"/>
-<instance part="S8" gate="-3" x="27.94" y="-190.5" rot="R270"/>
-<instance part="S8" gate="-4" x="27.94" y="-195.58" rot="R270"/>
-<instance part="RN3" gate="_" x="27.94" y="-248.92"/>
-<instance part="RN3" gate="-1" x="25.4" y="-254"/>
-<instance part="RN3" gate="-2" x="25.4" y="-259.08"/>
-<instance part="RN3" gate="-3" x="25.4" y="-264.16"/>
-<instance part="RN3" gate="-4" x="25.4" y="-269.24"/>
-<instance part="RN4" gate="_" x="27.94" y="-210.82"/>
-<instance part="RN4" gate="-1" x="25.4" y="-215.9"/>
-<instance part="RN4" gate="-2" x="25.4" y="-220.98"/>
-<instance part="RN4" gate="-3" x="25.4" y="-226.06"/>
-<instance part="RN4" gate="-4" x="25.4" y="-231.14"/>
-<instance part="RN4" gate="-5" x="25.4" y="-236.22"/>
-<instance part="RN4" gate="-6" x="25.4" y="-241.3"/>
-<instance part="S9" gate="-1" x="109.22" y="-180.34" rot="R270"/>
-<instance part="S9" gate="-2" x="109.22" y="-185.42" rot="R270"/>
-<instance part="S9" gate="-3" x="109.22" y="-190.5" rot="R270"/>
-<instance part="S9" gate="-4" x="109.22" y="-195.58" rot="R270"/>
-<instance part="RN5" gate="_" x="109.22" y="-248.92"/>
-<instance part="RN5" gate="-1" x="106.68" y="-254"/>
-<instance part="RN5" gate="-2" x="106.68" y="-259.08"/>
-<instance part="RN5" gate="-3" x="106.68" y="-264.16"/>
-<instance part="RN5" gate="-4" x="106.68" y="-269.24"/>
-<instance part="RN6" gate="_" x="109.22" y="-210.82"/>
-<instance part="RN6" gate="-1" x="106.68" y="-215.9"/>
-<instance part="RN6" gate="-2" x="106.68" y="-220.98"/>
-<instance part="RN6" gate="-3" x="106.68" y="-226.06"/>
-<instance part="RN6" gate="-4" x="106.68" y="-231.14"/>
-<instance part="RN6" gate="-5" x="106.68" y="-236.22"/>
-<instance part="RN6" gate="-6" x="106.68" y="-241.3"/>
-<instance part="S10" gate="-1" x="190.5" y="-180.34" rot="R270"/>
-<instance part="S10" gate="-2" x="190.5" y="-185.42" rot="R270"/>
-<instance part="S10" gate="-3" x="190.5" y="-190.5" rot="R270"/>
-<instance part="S10" gate="-4" x="190.5" y="-195.58" rot="R270"/>
-<instance part="RN7" gate="_" x="190.5" y="-248.92"/>
-<instance part="RN7" gate="-1" x="187.96" y="-254"/>
-<instance part="RN7" gate="-2" x="187.96" y="-259.08"/>
-<instance part="RN7" gate="-3" x="187.96" y="-264.16"/>
-<instance part="RN7" gate="-4" x="187.96" y="-269.24"/>
-<instance part="RN8" gate="_" x="190.5" y="-210.82"/>
-<instance part="RN8" gate="-1" x="187.96" y="-215.9"/>
-<instance part="RN8" gate="-2" x="187.96" y="-220.98"/>
-<instance part="RN8" gate="-3" x="187.96" y="-226.06"/>
-<instance part="RN8" gate="-4" x="187.96" y="-231.14"/>
-<instance part="RN8" gate="-5" x="187.96" y="-236.22"/>
-<instance part="RN8" gate="-6" x="187.96" y="-241.3"/>
-<instance part="S11" gate="-1" x="271.78" y="-180.34" rot="R270"/>
-<instance part="S11" gate="-2" x="271.78" y="-185.42" rot="R270"/>
-<instance part="S11" gate="-3" x="271.78" y="-190.5" rot="R270"/>
-<instance part="S11" gate="-4" x="271.78" y="-195.58" rot="R270"/>
-<instance part="RN9" gate="_" x="271.78" y="-248.92"/>
-<instance part="RN9" gate="-1" x="269.24" y="-254"/>
-<instance part="RN9" gate="-2" x="269.24" y="-259.08"/>
-<instance part="RN9" gate="-3" x="269.24" y="-264.16"/>
-<instance part="RN9" gate="-4" x="269.24" y="-269.24"/>
-<instance part="RN10" gate="_" x="271.78" y="-210.82"/>
-<instance part="RN10" gate="-1" x="269.24" y="-215.9"/>
-<instance part="RN10" gate="-2" x="269.24" y="-220.98"/>
-<instance part="RN10" gate="-3" x="269.24" y="-226.06"/>
-<instance part="RN10" gate="-4" x="269.24" y="-231.14"/>
-<instance part="RN10" gate="-5" x="269.24" y="-236.22"/>
-<instance part="RN10" gate="-6" x="269.24" y="-241.3"/>
+<instance part="S4" gate="-1" x="27.94" y="-180.34" rot="R270"/>
+<instance part="S4" gate="-2" x="27.94" y="-185.42" rot="R270"/>
+<instance part="S4" gate="-3" x="27.94" y="-190.5" rot="R270"/>
+<instance part="S4" gate="-4" x="27.94" y="-195.58" rot="R270"/>
+<instance part="RN4" gate="_" x="27.94" y="-248.92"/>
+<instance part="RN4" gate="-1" x="25.4" y="-254"/>
+<instance part="RN4" gate="-2" x="25.4" y="-259.08"/>
+<instance part="RN4" gate="-3" x="25.4" y="-264.16"/>
+<instance part="RN4" gate="-4" x="25.4" y="-269.24"/>
+<instance part="RN3" gate="_" x="27.94" y="-210.82"/>
+<instance part="RN3" gate="-1" x="25.4" y="-215.9"/>
+<instance part="RN3" gate="-2" x="25.4" y="-220.98"/>
+<instance part="RN3" gate="-3" x="25.4" y="-226.06"/>
+<instance part="RN3" gate="-4" x="25.4" y="-231.14"/>
+<instance part="RN3" gate="-5" x="25.4" y="-236.22"/>
+<instance part="RN3" gate="-6" x="25.4" y="-241.3"/>
+<instance part="S6" gate="-1" x="109.22" y="-180.34" rot="R270"/>
+<instance part="S6" gate="-2" x="109.22" y="-185.42" rot="R270"/>
+<instance part="S6" gate="-3" x="109.22" y="-190.5" rot="R270"/>
+<instance part="S6" gate="-4" x="109.22" y="-195.58" rot="R270"/>
+<instance part="RN6" gate="_" x="109.22" y="-248.92"/>
+<instance part="RN6" gate="-1" x="106.68" y="-254"/>
+<instance part="RN6" gate="-2" x="106.68" y="-259.08"/>
+<instance part="RN6" gate="-3" x="106.68" y="-264.16"/>
+<instance part="RN6" gate="-4" x="106.68" y="-269.24"/>
+<instance part="RN5" gate="_" x="109.22" y="-210.82"/>
+<instance part="RN5" gate="-1" x="106.68" y="-215.9"/>
+<instance part="RN5" gate="-2" x="106.68" y="-220.98"/>
+<instance part="RN5" gate="-3" x="106.68" y="-226.06"/>
+<instance part="RN5" gate="-4" x="106.68" y="-231.14"/>
+<instance part="RN5" gate="-5" x="106.68" y="-236.22"/>
+<instance part="RN5" gate="-6" x="106.68" y="-241.3"/>
+<instance part="S8" gate="-1" x="190.5" y="-180.34" rot="R270"/>
+<instance part="S8" gate="-2" x="190.5" y="-185.42" rot="R270"/>
+<instance part="S8" gate="-3" x="190.5" y="-190.5" rot="R270"/>
+<instance part="S8" gate="-4" x="190.5" y="-195.58" rot="R270"/>
+<instance part="RN8" gate="_" x="190.5" y="-248.92"/>
+<instance part="RN8" gate="-1" x="187.96" y="-254"/>
+<instance part="RN8" gate="-2" x="187.96" y="-259.08"/>
+<instance part="RN8" gate="-3" x="187.96" y="-264.16"/>
+<instance part="RN8" gate="-4" x="187.96" y="-269.24"/>
+<instance part="RN7" gate="_" x="190.5" y="-210.82"/>
+<instance part="RN7" gate="-1" x="187.96" y="-215.9"/>
+<instance part="RN7" gate="-2" x="187.96" y="-220.98"/>
+<instance part="RN7" gate="-3" x="187.96" y="-226.06"/>
+<instance part="RN7" gate="-4" x="187.96" y="-231.14"/>
+<instance part="RN7" gate="-5" x="187.96" y="-236.22"/>
+<instance part="RN7" gate="-6" x="187.96" y="-241.3"/>
+<instance part="S10" gate="-1" x="271.78" y="-180.34" rot="R270"/>
+<instance part="S10" gate="-2" x="271.78" y="-185.42" rot="R270"/>
+<instance part="S10" gate="-3" x="271.78" y="-190.5" rot="R270"/>
+<instance part="S10" gate="-4" x="271.78" y="-195.58" rot="R270"/>
+<instance part="RN10" gate="_" x="271.78" y="-248.92"/>
+<instance part="RN10" gate="-1" x="269.24" y="-254"/>
+<instance part="RN10" gate="-2" x="269.24" y="-259.08"/>
+<instance part="RN10" gate="-3" x="269.24" y="-264.16"/>
+<instance part="RN10" gate="-4" x="269.24" y="-269.24"/>
+<instance part="RN9" gate="_" x="271.78" y="-210.82"/>
+<instance part="RN9" gate="-1" x="269.24" y="-215.9"/>
+<instance part="RN9" gate="-2" x="269.24" y="-220.98"/>
+<instance part="RN9" gate="-3" x="269.24" y="-226.06"/>
+<instance part="RN9" gate="-4" x="269.24" y="-231.14"/>
+<instance part="RN9" gate="-5" x="269.24" y="-236.22"/>
+<instance part="RN9" gate="-6" x="269.24" y="-241.3"/>
 <instance part="S12" gate="-1" x="353.06" y="-180.34" rot="R270"/>
 <instance part="S12" gate="-2" x="353.06" y="-185.42" rot="R270"/>
 <instance part="S12" gate="-3" x="353.06" y="-190.5" rot="R270"/>
 <instance part="S12" gate="-4" x="353.06" y="-195.58" rot="R270"/>
-<instance part="RN11" gate="_" x="353.06" y="-248.92"/>
-<instance part="RN11" gate="-1" x="350.52" y="-254"/>
-<instance part="RN11" gate="-2" x="350.52" y="-259.08"/>
-<instance part="RN11" gate="-3" x="350.52" y="-264.16"/>
-<instance part="RN12" gate="_" x="353.06" y="-210.82"/>
-<instance part="RN12" gate="-1" x="350.52" y="-215.9"/>
-<instance part="RN12" gate="-2" x="350.52" y="-220.98"/>
-<instance part="RN12" gate="-3" x="350.52" y="-226.06"/>
-<instance part="RN12" gate="-4" x="350.52" y="-231.14"/>
-<instance part="RN12" gate="-5" x="350.52" y="-236.22"/>
-<instance part="RN12" gate="-6" x="350.52" y="-241.3"/>
-<instance part="RN11" gate="-4" x="350.52" y="-269.24"/>
-<instance part="S4" gate="-1" x="190.5" y="-137.16" rot="R270"/>
-<instance part="S4" gate="-2" x="190.5" y="-142.24" rot="R270"/>
-<instance part="S4" gate="-3" x="190.5" y="-147.32" rot="R270"/>
-<instance part="S4" gate="-4" x="190.5" y="-152.4" rot="R270"/>
-<instance part="S4" gate="-5" x="190.5" y="-157.48" rot="R270"/>
-<instance part="S4" gate="-6" x="190.5" y="-162.56" rot="R270"/>
-<instance part="S4" gate="-7" x="190.5" y="-167.64" rot="R270"/>
-<instance part="S4" gate="-8" x="190.5" y="-172.72" rot="R270"/>
+<instance part="RN12" gate="_" x="353.06" y="-248.92"/>
+<instance part="RN12" gate="-1" x="350.52" y="-254"/>
+<instance part="RN12" gate="-2" x="350.52" y="-259.08"/>
+<instance part="RN12" gate="-3" x="350.52" y="-264.16"/>
+<instance part="RN11" gate="_" x="353.06" y="-210.82"/>
+<instance part="RN11" gate="-1" x="350.52" y="-215.9"/>
+<instance part="RN11" gate="-2" x="350.52" y="-220.98"/>
+<instance part="RN11" gate="-3" x="350.52" y="-226.06"/>
+<instance part="RN11" gate="-4" x="350.52" y="-231.14"/>
+<instance part="RN11" gate="-5" x="350.52" y="-236.22"/>
+<instance part="RN11" gate="-6" x="350.52" y="-241.3"/>
+<instance part="RN12" gate="-4" x="350.52" y="-269.24"/>
+<instance part="S7" gate="-1" x="190.5" y="-137.16" rot="R270"/>
+<instance part="S7" gate="-2" x="190.5" y="-142.24" rot="R270"/>
+<instance part="S7" gate="-3" x="190.5" y="-147.32" rot="R270"/>
+<instance part="S7" gate="-4" x="190.5" y="-152.4" rot="R270"/>
+<instance part="S7" gate="-5" x="190.5" y="-157.48" rot="R270"/>
+<instance part="S7" gate="-6" x="190.5" y="-162.56" rot="R270"/>
+<instance part="S7" gate="-7" x="190.5" y="-167.64" rot="R270"/>
+<instance part="S7" gate="-8" x="190.5" y="-172.72" rot="R270"/>
 <instance part="FRAME1" gate="G$1" x="147.32" y="-469.9"/>
 <instance part="FRAME1" gate="G$2" x="472.44" y="-469.9"/>
 </instances>
@@ -12369,27 +12369,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X8" gate="G$1" pin="!RAM3"/>
 </segment>
 <segment>
-<pinref part="S7" gate="-3" pin="1"/>
+<pinref part="S2" gate="-3" pin="1"/>
 <wire x1="-58.42" y1="-190.5" x2="-63.5" y2="-190.5" width="0.1524" layer="91"/>
 <label x="-63.5" y="-190.5" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S8" gate="-3" pin="1"/>
+<pinref part="S4" gate="-3" pin="1"/>
 <wire x1="22.86" y1="-190.5" x2="17.78" y2="-190.5" width="0.1524" layer="91"/>
 <label x="17.78" y="-190.5" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S9" gate="-3" pin="1"/>
+<pinref part="S6" gate="-3" pin="1"/>
 <wire x1="104.14" y1="-190.5" x2="99.06" y2="-190.5" width="0.1524" layer="91"/>
 <label x="99.06" y="-190.5" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S10" gate="-3" pin="1"/>
+<pinref part="S8" gate="-3" pin="1"/>
 <wire x1="185.42" y1="-190.5" x2="180.34" y2="-190.5" width="0.1524" layer="91"/>
 <label x="180.34" y="-190.5" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S11" gate="-3" pin="1"/>
+<pinref part="S10" gate="-3" pin="1"/>
 <wire x1="266.7" y1="-190.5" x2="261.62" y2="-190.5" width="0.1524" layer="91"/>
 <label x="261.62" y="-190.5" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -12407,27 +12407,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X8" gate="G$1" pin="!RAM2"/>
 </segment>
 <segment>
-<pinref part="S7" gate="-2" pin="1"/>
+<pinref part="S2" gate="-2" pin="1"/>
 <wire x1="-58.42" y1="-185.42" x2="-63.5" y2="-185.42" width="0.1524" layer="91"/>
 <label x="-63.5" y="-185.42" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S8" gate="-2" pin="1"/>
+<pinref part="S4" gate="-2" pin="1"/>
 <wire x1="22.86" y1="-185.42" x2="17.78" y2="-185.42" width="0.1524" layer="91"/>
 <label x="17.78" y="-185.42" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S9" gate="-2" pin="1"/>
+<pinref part="S6" gate="-2" pin="1"/>
 <wire x1="104.14" y1="-185.42" x2="99.06" y2="-185.42" width="0.1524" layer="91"/>
 <label x="99.06" y="-185.42" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S10" gate="-2" pin="1"/>
+<pinref part="S8" gate="-2" pin="1"/>
 <wire x1="185.42" y1="-185.42" x2="180.34" y2="-185.42" width="0.1524" layer="91"/>
 <label x="180.34" y="-185.42" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S11" gate="-2" pin="1"/>
+<pinref part="S10" gate="-2" pin="1"/>
 <wire x1="266.7" y1="-185.42" x2="261.62" y2="-185.42" width="0.1524" layer="91"/>
 <label x="261.62" y="-185.42" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -12445,27 +12445,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X8" gate="G$1" pin="!RAM1"/>
 </segment>
 <segment>
-<pinref part="S7" gate="-1" pin="1"/>
+<pinref part="S2" gate="-1" pin="1"/>
 <wire x1="-58.42" y1="-180.34" x2="-63.5" y2="-180.34" width="0.1524" layer="91"/>
 <label x="-63.5" y="-180.34" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S8" gate="-1" pin="1"/>
+<pinref part="S4" gate="-1" pin="1"/>
 <wire x1="22.86" y1="-180.34" x2="17.78" y2="-180.34" width="0.1524" layer="91"/>
 <label x="17.78" y="-180.34" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S9" gate="-1" pin="1"/>
+<pinref part="S6" gate="-1" pin="1"/>
 <wire x1="104.14" y1="-180.34" x2="99.06" y2="-180.34" width="0.1524" layer="91"/>
 <label x="99.06" y="-180.34" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S10" gate="-1" pin="1"/>
+<pinref part="S8" gate="-1" pin="1"/>
 <wire x1="185.42" y1="-180.34" x2="180.34" y2="-180.34" width="0.1524" layer="91"/>
 <label x="180.34" y="-180.34" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S11" gate="-1" pin="1"/>
+<pinref part="S10" gate="-1" pin="1"/>
 <wire x1="266.7" y1="-180.34" x2="261.62" y2="-180.34" width="0.1524" layer="91"/>
 <label x="261.62" y="-180.34" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -12488,27 +12488,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-63.5" y="-172.72" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-8" pin="1"/>
+<pinref part="S3" gate="-8" pin="1"/>
 <wire x1="22.86" y1="-172.72" x2="17.78" y2="-172.72" width="0.1524" layer="91"/>
 <label x="17.78" y="-172.72" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-8" pin="1"/>
+<pinref part="S5" gate="-8" pin="1"/>
 <wire x1="104.14" y1="-172.72" x2="99.06" y2="-172.72" width="0.1524" layer="91"/>
 <label x="99.06" y="-172.72" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="-172.72" x2="180.34" y2="-172.72" width="0.1524" layer="91"/>
 <label x="180.34" y="-172.72" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S4" gate="-8" pin="1"/>
+<pinref part="S7" gate="-8" pin="1"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-8" pin="1"/>
+<pinref part="S9" gate="-8" pin="1"/>
 <wire x1="266.7" y1="-172.72" x2="261.62" y2="-172.72" width="0.1524" layer="91"/>
 <label x="261.62" y="-172.72" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-8" pin="1"/>
+<pinref part="S11" gate="-8" pin="1"/>
 <wire x1="347.98" y1="-172.72" x2="342.9" y2="-172.72" width="0.1524" layer="91"/>
 <label x="342.9" y="-172.72" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -12526,27 +12526,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-63.5" y="-167.64" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-7" pin="1"/>
+<pinref part="S3" gate="-7" pin="1"/>
 <wire x1="22.86" y1="-167.64" x2="17.78" y2="-167.64" width="0.1524" layer="91"/>
 <label x="17.78" y="-167.64" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-7" pin="1"/>
+<pinref part="S5" gate="-7" pin="1"/>
 <wire x1="104.14" y1="-167.64" x2="99.06" y2="-167.64" width="0.1524" layer="91"/>
 <label x="99.06" y="-167.64" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="-167.64" x2="180.34" y2="-167.64" width="0.1524" layer="91"/>
 <label x="180.34" y="-167.64" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S4" gate="-7" pin="1"/>
+<pinref part="S7" gate="-7" pin="1"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-7" pin="1"/>
+<pinref part="S9" gate="-7" pin="1"/>
 <wire x1="266.7" y1="-167.64" x2="261.62" y2="-167.64" width="0.1524" layer="91"/>
 <label x="261.62" y="-167.64" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-7" pin="1"/>
+<pinref part="S11" gate="-7" pin="1"/>
 <wire x1="347.98" y1="-167.64" x2="342.9" y2="-167.64" width="0.1524" layer="91"/>
 <label x="342.9" y="-167.64" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -12564,27 +12564,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-63.5" y="-162.56" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-6" pin="1"/>
+<pinref part="S3" gate="-6" pin="1"/>
 <wire x1="22.86" y1="-162.56" x2="17.78" y2="-162.56" width="0.1524" layer="91"/>
 <label x="17.78" y="-162.56" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-6" pin="1"/>
+<pinref part="S5" gate="-6" pin="1"/>
 <wire x1="104.14" y1="-162.56" x2="99.06" y2="-162.56" width="0.1524" layer="91"/>
 <label x="99.06" y="-162.56" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="-162.56" x2="180.34" y2="-162.56" width="0.1524" layer="91"/>
 <label x="180.34" y="-162.56" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S4" gate="-6" pin="1"/>
+<pinref part="S7" gate="-6" pin="1"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-6" pin="1"/>
+<pinref part="S9" gate="-6" pin="1"/>
 <wire x1="266.7" y1="-162.56" x2="261.62" y2="-162.56" width="0.1524" layer="91"/>
 <label x="261.62" y="-162.56" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-6" pin="1"/>
+<pinref part="S11" gate="-6" pin="1"/>
 <wire x1="347.98" y1="-162.56" x2="342.9" y2="-162.56" width="0.1524" layer="91"/>
 <label x="342.9" y="-162.56" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -12602,27 +12602,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-63.5" y="-157.48" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-5" pin="1"/>
+<pinref part="S3" gate="-5" pin="1"/>
 <wire x1="22.86" y1="-157.48" x2="17.78" y2="-157.48" width="0.1524" layer="91"/>
 <label x="17.78" y="-157.48" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-5" pin="1"/>
+<pinref part="S5" gate="-5" pin="1"/>
 <wire x1="104.14" y1="-157.48" x2="99.06" y2="-157.48" width="0.1524" layer="91"/>
 <label x="99.06" y="-157.48" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="-157.48" x2="180.34" y2="-157.48" width="0.1524" layer="91"/>
 <label x="180.34" y="-157.48" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S4" gate="-5" pin="1"/>
+<pinref part="S7" gate="-5" pin="1"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-5" pin="1"/>
+<pinref part="S9" gate="-5" pin="1"/>
 <wire x1="266.7" y1="-157.48" x2="261.62" y2="-157.48" width="0.1524" layer="91"/>
 <label x="261.62" y="-157.48" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-5" pin="1"/>
+<pinref part="S11" gate="-5" pin="1"/>
 <wire x1="347.98" y1="-157.48" x2="342.9" y2="-157.48" width="0.1524" layer="91"/>
 <label x="342.9" y="-157.48" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -13640,27 +13640,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-63.5" y="-147.32" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-3" pin="1"/>
+<pinref part="S3" gate="-3" pin="1"/>
 <wire x1="22.86" y1="-147.32" x2="17.78" y2="-147.32" width="0.1524" layer="91"/>
 <label x="17.78" y="-147.32" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-3" pin="1"/>
+<pinref part="S5" gate="-3" pin="1"/>
 <wire x1="104.14" y1="-147.32" x2="99.06" y2="-147.32" width="0.1524" layer="91"/>
 <label x="99.06" y="-147.32" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="-147.32" x2="180.34" y2="-147.32" width="0.1524" layer="91"/>
 <label x="180.34" y="-147.32" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S4" gate="-3" pin="1"/>
+<pinref part="S7" gate="-3" pin="1"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-3" pin="1"/>
+<pinref part="S9" gate="-3" pin="1"/>
 <wire x1="266.7" y1="-147.32" x2="261.62" y2="-147.32" width="0.1524" layer="91"/>
 <label x="261.62" y="-147.32" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-3" pin="1"/>
+<pinref part="S11" gate="-3" pin="1"/>
 <wire x1="347.98" y1="-147.32" x2="342.9" y2="-147.32" width="0.1524" layer="91"/>
 <label x="342.9" y="-147.32" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -13678,27 +13678,27 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-63.5" y="-152.4" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-4" pin="1"/>
+<pinref part="S3" gate="-4" pin="1"/>
 <wire x1="22.86" y1="-152.4" x2="17.78" y2="-152.4" width="0.1524" layer="91"/>
 <label x="17.78" y="-152.4" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-4" pin="1"/>
+<pinref part="S5" gate="-4" pin="1"/>
 <wire x1="104.14" y1="-152.4" x2="99.06" y2="-152.4" width="0.1524" layer="91"/>
 <label x="99.06" y="-152.4" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="-152.4" x2="180.34" y2="-152.4" width="0.1524" layer="91"/>
 <label x="180.34" y="-152.4" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S4" gate="-4" pin="1"/>
+<pinref part="S7" gate="-4" pin="1"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-4" pin="1"/>
+<pinref part="S9" gate="-4" pin="1"/>
 <wire x1="266.7" y1="-152.4" x2="261.62" y2="-152.4" width="0.1524" layer="91"/>
 <label x="261.62" y="-152.4" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-4" pin="1"/>
+<pinref part="S11" gate="-4" pin="1"/>
 <wire x1="347.98" y1="-152.4" x2="342.9" y2="-152.4" width="0.1524" layer="91"/>
 <label x="342.9" y="-152.4" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -13806,7 +13806,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="!RESET" class="0">
 <segment>
 <wire x1="-116.84" y1="-142.24" x2="-119.38" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="1" pin="S"/>
+<pinref part="SW6" gate="1" pin="S"/>
 <label x="-116.84" y="-142.24" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
@@ -13866,29 +13866,29 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="AUDIO" gate="1" pin="2"/>
 </segment>
 <segment>
-<pinref part="S7" gate="-4" pin="1"/>
+<pinref part="S2" gate="-4" pin="1"/>
 <wire x1="-58.42" y1="-195.58" x2="-63.5" y2="-195.58" width="0.1524" layer="91"/>
 <label x="-63.5" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="-195.58" x2="17.78" y2="-195.58" width="0.1524" layer="91"/>
 <label x="17.78" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S8" gate="-4" pin="1"/>
+<pinref part="S4" gate="-4" pin="1"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="-195.58" x2="99.06" y2="-195.58" width="0.1524" layer="91"/>
 <label x="99.06" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S9" gate="-4" pin="1"/>
+<pinref part="S6" gate="-4" pin="1"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="-195.58" x2="180.34" y2="-195.58" width="0.1524" layer="91"/>
 <label x="180.34" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S10" gate="-4" pin="1"/>
+<pinref part="S8" gate="-4" pin="1"/>
 </segment>
 <segment>
 <wire x1="266.7" y1="-195.58" x2="261.62" y2="-195.58" width="0.1524" layer="91"/>
 <label x="261.62" y="-195.58" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
-<pinref part="S11" gate="-4" pin="1"/>
+<pinref part="S10" gate="-4" pin="1"/>
 </segment>
 <segment>
 <wire x1="347.98" y1="-195.58" x2="342.9" y2="-195.58" width="0.1524" layer="91"/>
@@ -13916,7 +13916,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-132.08" y1="-144.78" x2="-132.08" y2="-142.24" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="-142.24" x2="-129.54" y2="-142.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
-<pinref part="SW3" gate="1" pin="P"/>
+<pinref part="SW6" gate="1" pin="P"/>
 </segment>
 <segment>
 <wire x1="-58.42" y1="-314.96" x2="-58.42" y2="-330.2" width="0.1524" layer="91"/>
@@ -13930,7 +13930,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="347.98" y1="-314.96" x2="347.98" y2="-330.2" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="C6" gate="G$1" pin="-"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -13940,7 +13940,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="104.14" y1="-314.96" x2="104.14" y2="-330.2" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="-"/>
+<pinref part="C3" gate="G$1" pin="-"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -13950,7 +13950,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="185.42" y1="-314.96" x2="185.42" y2="-330.2" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -13960,7 +13960,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="266.7" y1="-314.96" x2="266.7" y2="-330.2" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="-"/>
+<pinref part="C5" gate="G$1" pin="-"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -14228,8 +14228,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="!IO3SW_6" class="0">
 <segment>
-<pinref part="SW9" gate="BEF1" pin="O1"/>
-<pinref part="SW9" gate="BEF1" pin="S"/>
+<pinref part="SW5" gate="BEF1" pin="O1"/>
+<pinref part="SW5" gate="BEF1" pin="S"/>
 <wire x1="358.14" y1="-279.4" x2="360.68" y2="-279.4" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="-279.4" x2="360.68" y2="-284.48" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="-284.48" x2="358.14" y2="-284.48" width="0.1524" layer="91"/>
@@ -14238,20 +14238,20 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="365.76" y="-279.4" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-4" pin="2"/>
+<pinref part="S11" gate="-4" pin="2"/>
 <wire x1="358.14" y1="-152.4" x2="363.22" y2="-152.4" width="0.1524" layer="91"/>
 <label x="363.22" y="-152.4" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN12" gate="-2" pin="1"/>
+<pinref part="RN11" gate="-2" pin="1"/>
 <wire x1="347.98" y1="-220.98" x2="342.9" y2="-220.98" width="0.1524" layer="91"/>
 <label x="342.9" y="-220.98" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!IO2SW_6" class="0">
 <segment>
-<pinref part="SW9" gate="BEF1" pin="S1"/>
-<pinref part="SW9" gate="BEF1" pin="O"/>
+<pinref part="SW5" gate="BEF1" pin="S1"/>
+<pinref part="SW5" gate="BEF1" pin="O"/>
 <wire x1="358.14" y1="-274.32" x2="363.22" y2="-274.32" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="-274.32" x2="363.22" y2="-289.56" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="-289.56" x2="358.14" y2="-289.56" width="0.1524" layer="91"/>
@@ -14260,12 +14260,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="365.76" y="-274.32" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-3" pin="2"/>
+<pinref part="S11" gate="-3" pin="2"/>
 <wire x1="358.14" y1="-147.32" x2="363.22" y2="-147.32" width="0.1524" layer="91"/>
 <label x="363.22" y="-147.32" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN12" gate="-1" pin="1"/>
+<pinref part="RN11" gate="-1" pin="1"/>
 <wire x1="347.98" y1="-215.9" x2="342.9" y2="-215.9" width="0.1524" layer="91"/>
 <label x="342.9" y="-215.9" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14287,7 +14287,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="N$26" class="0">
 <segment>
 <wire x1="358.14" y1="-314.96" x2="358.14" y2="-317.5" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -14309,9 +14309,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="-60.96" y="-137.16"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-2" pin="1"/>
+<pinref part="S3" gate="-2" pin="1"/>
 <wire x1="22.86" y1="-142.24" x2="20.32" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="S2" gate="-1" pin="1"/>
+<pinref part="S3" gate="-1" pin="1"/>
 <wire x1="22.86" y1="-137.16" x2="20.32" y2="-137.16" width="0.1524" layer="91"/>
 <label x="17.78" y="-137.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 <wire x1="20.32" y1="-137.16" x2="17.78" y2="-137.16" width="0.1524" layer="91"/>
@@ -14319,9 +14319,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="20.32" y="-137.16"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-2" pin="1"/>
+<pinref part="S5" gate="-2" pin="1"/>
 <wire x1="104.14" y1="-142.24" x2="101.6" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="S3" gate="-1" pin="1"/>
+<pinref part="S5" gate="-1" pin="1"/>
 <wire x1="104.14" y1="-137.16" x2="101.6" y2="-137.16" width="0.1524" layer="91"/>
 <label x="99.06" y="-137.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 <wire x1="101.6" y1="-137.16" x2="99.06" y2="-137.16" width="0.1524" layer="91"/>
@@ -14335,13 +14335,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="182.88" y1="-137.16" x2="180.34" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="-142.24" x2="182.88" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="182.88" y="-137.16"/>
-<pinref part="S4" gate="-1" pin="1"/>
-<pinref part="S4" gate="-2" pin="1"/>
+<pinref part="S7" gate="-1" pin="1"/>
+<pinref part="S7" gate="-2" pin="1"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-2" pin="1"/>
+<pinref part="S9" gate="-2" pin="1"/>
 <wire x1="266.7" y1="-142.24" x2="264.16" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="S5" gate="-1" pin="1"/>
+<pinref part="S9" gate="-1" pin="1"/>
 <wire x1="266.7" y1="-137.16" x2="264.16" y2="-137.16" width="0.1524" layer="91"/>
 <label x="261.62" y="-137.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 <wire x1="264.16" y1="-137.16" x2="261.62" y2="-137.16" width="0.1524" layer="91"/>
@@ -14349,9 +14349,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="264.16" y="-137.16"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-2" pin="1"/>
+<pinref part="S11" gate="-2" pin="1"/>
 <wire x1="347.98" y1="-142.24" x2="345.44" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="S6" gate="-1" pin="1"/>
+<pinref part="S11" gate="-1" pin="1"/>
 <wire x1="347.98" y1="-137.16" x2="345.44" y2="-137.16" width="0.1524" layer="91"/>
 <label x="342.9" y="-137.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 <wire x1="345.44" y1="-137.16" x2="342.9" y2="-137.16" width="0.1524" layer="91"/>
@@ -14369,52 +14369,52 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-63.5" y="-248.92" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN4" gate="_" pin="1"/>
+<pinref part="RN3" gate="_" pin="1"/>
 <wire x1="22.86" y1="-210.82" x2="17.78" y2="-210.82" width="0.1524" layer="91"/>
 <label x="17.78" y="-210.82" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN3" gate="_" pin="1"/>
+<pinref part="RN4" gate="_" pin="1"/>
 <wire x1="22.86" y1="-248.92" x2="17.78" y2="-248.92" width="0.1524" layer="91"/>
 <label x="17.78" y="-248.92" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN6" gate="_" pin="1"/>
+<pinref part="RN5" gate="_" pin="1"/>
 <wire x1="104.14" y1="-210.82" x2="99.06" y2="-210.82" width="0.1524" layer="91"/>
 <label x="99.06" y="-210.82" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN5" gate="_" pin="1"/>
+<pinref part="RN6" gate="_" pin="1"/>
 <wire x1="104.14" y1="-248.92" x2="99.06" y2="-248.92" width="0.1524" layer="91"/>
 <label x="99.06" y="-248.92" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN8" gate="_" pin="1"/>
+<pinref part="RN7" gate="_" pin="1"/>
 <wire x1="185.42" y1="-210.82" x2="180.34" y2="-210.82" width="0.1524" layer="91"/>
 <label x="180.34" y="-210.82" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN7" gate="_" pin="1"/>
+<pinref part="RN8" gate="_" pin="1"/>
 <wire x1="185.42" y1="-248.92" x2="180.34" y2="-248.92" width="0.1524" layer="91"/>
 <label x="180.34" y="-248.92" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN10" gate="_" pin="1"/>
+<pinref part="RN9" gate="_" pin="1"/>
 <wire x1="266.7" y1="-210.82" x2="261.62" y2="-210.82" width="0.1524" layer="91"/>
 <label x="261.62" y="-210.82" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN9" gate="_" pin="1"/>
+<pinref part="RN10" gate="_" pin="1"/>
 <wire x1="266.7" y1="-248.92" x2="261.62" y2="-248.92" width="0.1524" layer="91"/>
 <label x="261.62" y="-248.92" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN12" gate="_" pin="1"/>
+<pinref part="RN11" gate="_" pin="1"/>
 <wire x1="347.98" y1="-210.82" x2="342.9" y2="-210.82" width="0.1524" layer="91"/>
 <label x="342.9" y="-210.82" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN11" gate="_" pin="1"/>
+<pinref part="RN12" gate="_" pin="1"/>
 <wire x1="347.98" y1="-248.92" x2="342.9" y2="-248.92" width="0.1524" layer="91"/>
 <label x="342.9" y="-248.92" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14526,7 +14526,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-17.78" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S7" gate="-1" pin="2"/>
+<pinref part="S2" gate="-1" pin="2"/>
 <wire x1="-48.26" y1="-180.34" x2="-43.18" y2="-180.34" width="0.1524" layer="91"/>
 <label x="-43.18" y="-180.34" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
@@ -14543,7 +14543,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-17.78" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S7" gate="-2" pin="2"/>
+<pinref part="S2" gate="-2" pin="2"/>
 <wire x1="-48.26" y1="-185.42" x2="-43.18" y2="-185.42" width="0.1524" layer="91"/>
 <label x="-43.18" y="-185.42" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
@@ -14560,7 +14560,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="-17.78" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S7" gate="-3" pin="2"/>
+<pinref part="S2" gate="-3" pin="2"/>
 <wire x1="-48.26" y1="-190.5" x2="-43.18" y2="-190.5" width="0.1524" layer="91"/>
 <label x="-43.18" y="-190.5" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
@@ -14572,8 +14572,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="!IO3SW_3" class="0">
 <segment>
-<pinref part="SW11" gate="BEF1" pin="O1"/>
-<pinref part="SW11" gate="BEF1" pin="S"/>
+<pinref part="SW2" gate="BEF1" pin="O1"/>
+<pinref part="SW2" gate="BEF1" pin="S"/>
 <wire x1="114.3" y1="-279.4" x2="116.84" y2="-279.4" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="-279.4" x2="116.84" y2="-284.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="-284.48" x2="114.3" y2="-284.48" width="0.1524" layer="91"/>
@@ -14582,20 +14582,20 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="121.92" y="-279.4" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-4" pin="2"/>
+<pinref part="S5" gate="-4" pin="2"/>
 <wire x1="114.3" y1="-152.4" x2="119.38" y2="-152.4" width="0.1524" layer="91"/>
 <label x="119.38" y="-152.4" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN6" gate="-2" pin="1"/>
+<pinref part="RN5" gate="-2" pin="1"/>
 <wire x1="104.14" y1="-220.98" x2="99.06" y2="-220.98" width="0.1524" layer="91"/>
 <label x="99.06" y="-220.98" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!IO2SW_3" class="0">
 <segment>
-<pinref part="SW11" gate="BEF1" pin="S1"/>
-<pinref part="SW11" gate="BEF1" pin="O"/>
+<pinref part="SW2" gate="BEF1" pin="S1"/>
+<pinref part="SW2" gate="BEF1" pin="O"/>
 <wire x1="114.3" y1="-274.32" x2="119.38" y2="-274.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-274.32" x2="119.38" y2="-289.56" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-289.56" x2="114.3" y2="-289.56" width="0.1524" layer="91"/>
@@ -14604,12 +14604,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="121.92" y="-274.32" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-3" pin="2"/>
+<pinref part="S5" gate="-3" pin="2"/>
 <wire x1="114.3" y1="-147.32" x2="119.38" y2="-147.32" width="0.1524" layer="91"/>
 <label x="119.38" y="-147.32" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN6" gate="-1" pin="1"/>
+<pinref part="RN5" gate="-1" pin="1"/>
 <wire x1="104.14" y1="-215.9" x2="99.06" y2="-215.9" width="0.1524" layer="91"/>
 <label x="99.06" y="-215.9" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14617,14 +14617,14 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="N$43" class="0">
 <segment>
 <wire x1="114.3" y1="-314.96" x2="114.3" y2="-317.5" width="0.1524" layer="91"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="!IO3SW_4" class="0">
 <segment>
-<pinref part="SW14" gate="BEF1" pin="O1"/>
-<pinref part="SW14" gate="BEF1" pin="S"/>
+<pinref part="SW3" gate="BEF1" pin="O1"/>
+<pinref part="SW3" gate="BEF1" pin="S"/>
 <wire x1="195.58" y1="-279.4" x2="198.12" y2="-279.4" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="-279.4" x2="198.12" y2="-284.48" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="-284.48" x2="195.58" y2="-284.48" width="0.1524" layer="91"/>
@@ -14635,21 +14635,21 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="195.58" y1="-152.4" x2="200.66" y2="-152.4" width="0.1524" layer="91"/>
 <label x="200.66" y="-152.4" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S4" gate="-4" pin="2"/>
+<pinref part="S7" gate="-4" pin="2"/>
 </segment>
 <segment>
-<pinref part="RN8" gate="-2" pin="1"/>
+<pinref part="RN7" gate="-2" pin="1"/>
 <wire x1="185.42" y1="-220.98" x2="180.34" y2="-220.98" width="0.1524" layer="91"/>
 <label x="180.34" y="-220.98" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!IO2SW_4" class="0">
 <segment>
-<pinref part="SW14" gate="BEF1" pin="O"/>
+<pinref part="SW3" gate="BEF1" pin="O"/>
 <wire x1="195.58" y1="-274.32" x2="200.66" y2="-274.32" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-274.32" x2="200.66" y2="-289.56" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-289.56" x2="195.58" y2="-289.56" width="0.1524" layer="91"/>
-<pinref part="SW14" gate="BEF1" pin="S1"/>
+<pinref part="SW3" gate="BEF1" pin="S1"/>
 <wire x1="203.2" y1="-274.32" x2="200.66" y2="-274.32" width="0.1524" layer="91"/>
 <junction x="200.66" y="-274.32"/>
 <label x="203.2" y="-274.32" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
@@ -14657,10 +14657,10 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="195.58" y1="-147.32" x2="200.66" y2="-147.32" width="0.1524" layer="91"/>
 <label x="200.66" y="-147.32" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S4" gate="-3" pin="2"/>
+<pinref part="S7" gate="-3" pin="2"/>
 </segment>
 <segment>
-<pinref part="RN8" gate="-1" pin="1"/>
+<pinref part="RN7" gate="-1" pin="1"/>
 <wire x1="185.42" y1="-215.9" x2="180.34" y2="-215.9" width="0.1524" layer="91"/>
 <label x="180.34" y="-215.9" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14668,14 +14668,14 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="N$56" class="0">
 <segment>
 <wire x1="195.58" y1="-314.96" x2="195.58" y2="-317.5" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="!IO3SW_5" class="0">
 <segment>
-<pinref part="SW17" gate="BEF1" pin="O1"/>
-<pinref part="SW17" gate="BEF1" pin="S"/>
+<pinref part="SW4" gate="BEF1" pin="O1"/>
+<pinref part="SW4" gate="BEF1" pin="S"/>
 <wire x1="276.86" y1="-279.4" x2="279.4" y2="-279.4" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="-279.4" x2="279.4" y2="-284.48" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="-284.48" x2="276.86" y2="-284.48" width="0.1524" layer="91"/>
@@ -14684,20 +14684,20 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="284.48" y="-279.4" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN10" gate="-2" pin="1"/>
+<pinref part="RN9" gate="-2" pin="1"/>
 <wire x1="266.7" y1="-220.98" x2="261.62" y2="-220.98" width="0.1524" layer="91"/>
 <label x="261.62" y="-220.98" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-4" pin="2"/>
+<pinref part="S9" gate="-4" pin="2"/>
 <wire x1="276.86" y1="-152.4" x2="281.94" y2="-152.4" width="0.1524" layer="91"/>
 <label x="281.94" y="-152.4" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="!IO2SW_5" class="0">
 <segment>
-<pinref part="SW17" gate="BEF1" pin="S1"/>
-<pinref part="SW17" gate="BEF1" pin="O"/>
+<pinref part="SW4" gate="BEF1" pin="S1"/>
+<pinref part="SW4" gate="BEF1" pin="O"/>
 <wire x1="276.86" y1="-274.32" x2="281.94" y2="-274.32" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="-274.32" x2="281.94" y2="-289.56" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="-289.56" x2="276.86" y2="-289.56" width="0.1524" layer="91"/>
@@ -14706,12 +14706,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="284.48" y="-274.32" size="1.27" layer="95" ratio="10" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN10" gate="-1" pin="1"/>
+<pinref part="RN9" gate="-1" pin="1"/>
 <wire x1="266.7" y1="-215.9" x2="261.62" y2="-215.9" width="0.1524" layer="91"/>
 <label x="261.62" y="-215.9" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-3" pin="2"/>
+<pinref part="S9" gate="-3" pin="2"/>
 <wire x1="276.86" y1="-147.32" x2="281.94" y2="-147.32" width="0.1524" layer="91"/>
 <label x="281.94" y="-147.32" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
@@ -14719,7 +14719,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <net name="N$69" class="0">
 <segment>
 <wire x1="276.86" y1="-314.96" x2="276.86" y2="-317.5" width="0.1524" layer="91"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -14770,12 +14770,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="63.5" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN3" gate="-1" pin="1"/>
+<pinref part="RN4" gate="-1" pin="1"/>
 <wire x1="22.86" y1="-254" x2="17.78" y2="-254" width="0.1524" layer="91"/>
 <label x="17.78" y="-254" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S8" gate="-1" pin="2"/>
+<pinref part="S4" gate="-1" pin="2"/>
 <wire x1="33.02" y1="-180.34" x2="38.1" y2="-180.34" width="0.1524" layer="91"/>
 <label x="38.1" y="-180.34" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
@@ -14787,12 +14787,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="63.5" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN3" gate="-2" pin="1"/>
+<pinref part="RN4" gate="-2" pin="1"/>
 <wire x1="22.86" y1="-259.08" x2="17.78" y2="-259.08" width="0.1524" layer="91"/>
 <label x="17.78" y="-259.08" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S8" gate="-2" pin="2"/>
+<pinref part="S4" gate="-2" pin="2"/>
 <wire x1="33.02" y1="-185.42" x2="38.1" y2="-185.42" width="0.1524" layer="91"/>
 <label x="38.1" y="-185.42" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
@@ -14804,12 +14804,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="63.5" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN3" gate="-3" pin="1"/>
+<pinref part="RN4" gate="-3" pin="1"/>
 <wire x1="22.86" y1="-264.16" x2="17.78" y2="-264.16" width="0.1524" layer="91"/>
 <label x="17.78" y="-264.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S8" gate="-3" pin="2"/>
+<pinref part="S4" gate="-3" pin="2"/>
 <wire x1="33.02" y1="-190.5" x2="38.1" y2="-190.5" width="0.1524" layer="91"/>
 <label x="38.1" y="-190.5" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
@@ -14821,12 +14821,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="63.5" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-5" pin="2"/>
+<pinref part="S3" gate="-5" pin="2"/>
 <wire x1="33.02" y1="-157.48" x2="38.1" y2="-157.48" width="0.1524" layer="91"/>
 <label x="38.1" y="-157.48" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN4" gate="-3" pin="1"/>
+<pinref part="RN3" gate="-3" pin="1"/>
 <wire x1="22.86" y1="-226.06" x2="17.78" y2="-226.06" width="0.1524" layer="91"/>
 <label x="17.78" y="-226.06" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14838,12 +14838,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="63.5" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-6" pin="2"/>
+<pinref part="S3" gate="-6" pin="2"/>
 <wire x1="33.02" y1="-162.56" x2="38.1" y2="-162.56" width="0.1524" layer="91"/>
 <label x="38.1" y="-162.56" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN4" gate="-4" pin="1"/>
+<pinref part="RN3" gate="-4" pin="1"/>
 <wire x1="22.86" y1="-231.14" x2="17.78" y2="-231.14" width="0.1524" layer="91"/>
 <label x="17.78" y="-231.14" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14855,12 +14855,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="63.5" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-7" pin="2"/>
+<pinref part="S3" gate="-7" pin="2"/>
 <wire x1="33.02" y1="-167.64" x2="38.1" y2="-167.64" width="0.1524" layer="91"/>
 <label x="38.1" y="-167.64" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN4" gate="-5" pin="1"/>
+<pinref part="RN3" gate="-5" pin="1"/>
 <wire x1="22.86" y1="-236.22" x2="17.78" y2="-236.22" width="0.1524" layer="91"/>
 <label x="17.78" y="-236.22" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14872,12 +14872,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="63.5" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-8" pin="2"/>
+<pinref part="S3" gate="-8" pin="2"/>
 <wire x1="33.02" y1="-172.72" x2="38.1" y2="-172.72" width="0.1524" layer="91"/>
 <label x="38.1" y="-172.72" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN4" gate="-6" pin="1"/>
+<pinref part="RN3" gate="-6" pin="1"/>
 <wire x1="22.86" y1="-241.3" x2="17.78" y2="-241.3" width="0.1524" layer="91"/>
 <label x="17.78" y="-241.3" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14890,7 +14890,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="22.86" y1="-287.02" x2="20.32" y2="-287.02" width="0.1524" layer="91"/>
-<pinref part="SW6" gate="BEF1" pin="P1"/>
+<pinref part="SW1" gate="BEF1" pin="P1"/>
 <label x="20.32" y="-287.02" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
@@ -14902,7 +14902,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="22.86" y1="-276.86" x2="20.32" y2="-276.86" width="0.1524" layer="91"/>
-<pinref part="SW6" gate="BEF1" pin="P"/>
+<pinref part="SW1" gate="BEF1" pin="P"/>
 <label x="20.32" y="-276.86" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
@@ -14913,9 +14913,9 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="27.94" y="-33.02" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="-2" pin="2"/>
+<pinref part="S3" gate="-2" pin="2"/>
 <wire x1="33.02" y1="-142.24" x2="35.56" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="S2" gate="-1" pin="2"/>
+<pinref part="S3" gate="-1" pin="2"/>
 <wire x1="33.02" y1="-137.16" x2="35.56" y2="-137.16" width="0.1524" layer="91"/>
 <label x="38.1" y="-137.16" size="1.27" layer="95" ratio="10" xref="yes"/>
 <wire x1="35.56" y1="-137.16" x2="38.1" y2="-137.16" width="0.1524" layer="91"/>
@@ -14940,12 +14940,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="144.78" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S9" gate="-1" pin="2"/>
+<pinref part="S6" gate="-1" pin="2"/>
 <wire x1="114.3" y1="-180.34" x2="119.38" y2="-180.34" width="0.1524" layer="91"/>
 <label x="119.38" y="-180.34" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN5" gate="-1" pin="1"/>
+<pinref part="RN6" gate="-1" pin="1"/>
 <wire x1="104.14" y1="-254" x2="99.06" y2="-254" width="0.1524" layer="91"/>
 <label x="99.06" y="-254" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14957,12 +14957,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="144.78" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S9" gate="-2" pin="2"/>
+<pinref part="S6" gate="-2" pin="2"/>
 <wire x1="114.3" y1="-185.42" x2="119.38" y2="-185.42" width="0.1524" layer="91"/>
 <label x="119.38" y="-185.42" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN5" gate="-2" pin="1"/>
+<pinref part="RN6" gate="-2" pin="1"/>
 <wire x1="104.14" y1="-259.08" x2="99.06" y2="-259.08" width="0.1524" layer="91"/>
 <label x="99.06" y="-259.08" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14974,12 +14974,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="144.78" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S9" gate="-3" pin="2"/>
+<pinref part="S6" gate="-3" pin="2"/>
 <wire x1="114.3" y1="-190.5" x2="119.38" y2="-190.5" width="0.1524" layer="91"/>
 <label x="119.38" y="-190.5" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN5" gate="-3" pin="1"/>
+<pinref part="RN6" gate="-3" pin="1"/>
 <wire x1="104.14" y1="-264.16" x2="99.06" y2="-264.16" width="0.1524" layer="91"/>
 <label x="99.06" y="-264.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -14991,12 +14991,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="144.78" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-5" pin="2"/>
+<pinref part="S5" gate="-5" pin="2"/>
 <wire x1="114.3" y1="-157.48" x2="119.38" y2="-157.48" width="0.1524" layer="91"/>
 <label x="119.38" y="-157.48" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN6" gate="-3" pin="1"/>
+<pinref part="RN5" gate="-3" pin="1"/>
 <wire x1="104.14" y1="-226.06" x2="99.06" y2="-226.06" width="0.1524" layer="91"/>
 <label x="99.06" y="-226.06" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15008,12 +15008,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="144.78" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-6" pin="2"/>
+<pinref part="S5" gate="-6" pin="2"/>
 <wire x1="114.3" y1="-162.56" x2="119.38" y2="-162.56" width="0.1524" layer="91"/>
 <label x="119.38" y="-162.56" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN6" gate="-4" pin="1"/>
+<pinref part="RN5" gate="-4" pin="1"/>
 <wire x1="104.14" y1="-231.14" x2="99.06" y2="-231.14" width="0.1524" layer="91"/>
 <label x="99.06" y="-231.14" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15025,12 +15025,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="144.78" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-7" pin="2"/>
+<pinref part="S5" gate="-7" pin="2"/>
 <wire x1="114.3" y1="-167.64" x2="119.38" y2="-167.64" width="0.1524" layer="91"/>
 <label x="119.38" y="-167.64" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN6" gate="-5" pin="1"/>
+<pinref part="RN5" gate="-5" pin="1"/>
 <wire x1="104.14" y1="-236.22" x2="99.06" y2="-236.22" width="0.1524" layer="91"/>
 <label x="99.06" y="-236.22" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15042,12 +15042,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="144.78" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-8" pin="2"/>
+<pinref part="S5" gate="-8" pin="2"/>
 <wire x1="114.3" y1="-172.72" x2="119.38" y2="-172.72" width="0.1524" layer="91"/>
 <label x="119.38" y="-172.72" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN6" gate="-6" pin="1"/>
+<pinref part="RN5" gate="-6" pin="1"/>
 <wire x1="104.14" y1="-241.3" x2="99.06" y2="-241.3" width="0.1524" layer="91"/>
 <label x="99.06" y="-241.3" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15060,7 +15060,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="104.14" y1="-287.02" x2="101.6" y2="-287.02" width="0.1524" layer="91"/>
-<pinref part="SW11" gate="BEF1" pin="P1"/>
+<pinref part="SW2" gate="BEF1" pin="P1"/>
 <label x="101.6" y="-287.02" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
@@ -15072,7 +15072,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="104.14" y1="-276.86" x2="101.6" y2="-276.86" width="0.1524" layer="91"/>
-<pinref part="SW11" gate="BEF1" pin="P"/>
+<pinref part="SW2" gate="BEF1" pin="P"/>
 <label x="101.6" y="-276.86" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
@@ -15084,13 +15084,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="104.14" y1="-307.34" x2="104.14" y2="-304.8" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
+<pinref part="C3" gate="G$1" pin="+"/>
 <label x="104.14" y="-304.8" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S3" gate="-2" pin="2"/>
+<pinref part="S5" gate="-2" pin="2"/>
 <wire x1="114.3" y1="-142.24" x2="116.84" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="S3" gate="-1" pin="2"/>
+<pinref part="S5" gate="-1" pin="2"/>
 <wire x1="114.3" y1="-137.16" x2="116.84" y2="-137.16" width="0.1524" layer="91"/>
 <label x="119.38" y="-137.16" size="1.27" layer="95" ratio="10" xref="yes"/>
 <wire x1="116.84" y1="-137.16" x2="119.38" y2="-137.16" width="0.1524" layer="91"/>
@@ -15098,7 +15098,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="116.84" y="-137.16"/>
 </segment>
 <segment>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="114.3" y1="-304.8" x2="114.3" y2="-307.34" width="0.1524" layer="91"/>
 <label x="114.3" y="-304.8" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
@@ -15111,7 +15111,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="185.42" y1="-307.34" x2="185.42" y2="-304.8" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="+"/>
+<pinref part="C4" gate="G$1" pin="+"/>
 <label x="185.42" y="-304.8" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -15121,11 +15121,11 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="198.12" y1="-137.16" x2="200.66" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="-142.24" x2="198.12" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="198.12" y="-137.16"/>
-<pinref part="S4" gate="-1" pin="2"/>
-<pinref part="S4" gate="-2" pin="2"/>
+<pinref part="S7" gate="-1" pin="2"/>
+<pinref part="S7" gate="-2" pin="2"/>
 </segment>
 <segment>
-<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="195.58" y1="-304.8" x2="195.58" y2="-307.34" width="0.1524" layer="91"/>
 <label x="195.58" y="-304.8" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
@@ -15137,12 +15137,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="226.06" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S10" gate="-1" pin="2"/>
+<pinref part="S8" gate="-1" pin="2"/>
 <wire x1="195.58" y1="-180.34" x2="200.66" y2="-180.34" width="0.1524" layer="91"/>
 <label x="200.66" y="-180.34" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN7" gate="-1" pin="1"/>
+<pinref part="RN8" gate="-1" pin="1"/>
 <wire x1="185.42" y1="-254" x2="180.34" y2="-254" width="0.1524" layer="91"/>
 <label x="180.34" y="-254" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15154,12 +15154,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="226.06" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S10" gate="-2" pin="2"/>
+<pinref part="S8" gate="-2" pin="2"/>
 <wire x1="195.58" y1="-185.42" x2="200.66" y2="-185.42" width="0.1524" layer="91"/>
 <label x="200.66" y="-185.42" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN7" gate="-2" pin="1"/>
+<pinref part="RN8" gate="-2" pin="1"/>
 <wire x1="185.42" y1="-259.08" x2="180.34" y2="-259.08" width="0.1524" layer="91"/>
 <label x="180.34" y="-259.08" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15171,12 +15171,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="226.06" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S10" gate="-3" pin="2"/>
+<pinref part="S8" gate="-3" pin="2"/>
 <wire x1="195.58" y1="-190.5" x2="200.66" y2="-190.5" width="0.1524" layer="91"/>
 <label x="200.66" y="-190.5" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN7" gate="-3" pin="1"/>
+<pinref part="RN8" gate="-3" pin="1"/>
 <wire x1="185.42" y1="-264.16" x2="180.34" y2="-264.16" width="0.1524" layer="91"/>
 <label x="180.34" y="-264.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15190,10 +15190,10 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="195.58" y1="-157.48" x2="200.66" y2="-157.48" width="0.1524" layer="91"/>
 <label x="200.66" y="-157.48" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S4" gate="-5" pin="2"/>
+<pinref part="S7" gate="-5" pin="2"/>
 </segment>
 <segment>
-<pinref part="RN8" gate="-3" pin="1"/>
+<pinref part="RN7" gate="-3" pin="1"/>
 <wire x1="185.42" y1="-226.06" x2="180.34" y2="-226.06" width="0.1524" layer="91"/>
 <label x="180.34" y="-226.06" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15207,10 +15207,10 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="195.58" y1="-162.56" x2="200.66" y2="-162.56" width="0.1524" layer="91"/>
 <label x="200.66" y="-162.56" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S4" gate="-6" pin="2"/>
+<pinref part="S7" gate="-6" pin="2"/>
 </segment>
 <segment>
-<pinref part="RN8" gate="-4" pin="1"/>
+<pinref part="RN7" gate="-4" pin="1"/>
 <wire x1="185.42" y1="-231.14" x2="180.34" y2="-231.14" width="0.1524" layer="91"/>
 <label x="180.34" y="-231.14" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15224,10 +15224,10 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="195.58" y1="-167.64" x2="200.66" y2="-167.64" width="0.1524" layer="91"/>
 <label x="200.66" y="-167.64" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S4" gate="-7" pin="2"/>
+<pinref part="S7" gate="-7" pin="2"/>
 </segment>
 <segment>
-<pinref part="RN8" gate="-5" pin="1"/>
+<pinref part="RN7" gate="-5" pin="1"/>
 <wire x1="185.42" y1="-236.22" x2="180.34" y2="-236.22" width="0.1524" layer="91"/>
 <label x="180.34" y="-236.22" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15241,10 +15241,10 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="195.58" y1="-172.72" x2="200.66" y2="-172.72" width="0.1524" layer="91"/>
 <label x="200.66" y="-172.72" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S4" gate="-8" pin="2"/>
+<pinref part="S7" gate="-8" pin="2"/>
 </segment>
 <segment>
-<pinref part="RN8" gate="-6" pin="1"/>
+<pinref part="RN7" gate="-6" pin="1"/>
 <wire x1="185.42" y1="-241.3" x2="180.34" y2="-241.3" width="0.1524" layer="91"/>
 <label x="180.34" y="-241.3" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15257,7 +15257,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="185.42" y1="-287.02" x2="182.88" y2="-287.02" width="0.1524" layer="91"/>
-<pinref part="SW14" gate="BEF1" pin="P1"/>
+<pinref part="SW3" gate="BEF1" pin="P1"/>
 <label x="182.88" y="-287.02" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
@@ -15269,7 +15269,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="185.42" y1="-276.86" x2="182.88" y2="-276.86" width="0.1524" layer="91"/>
-<pinref part="SW14" gate="BEF1" pin="P"/>
+<pinref part="SW3" gate="BEF1" pin="P"/>
 <label x="182.88" y="-276.86" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
@@ -15281,13 +15281,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="266.7" y1="-307.34" x2="266.7" y2="-304.8" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="+"/>
+<pinref part="C5" gate="G$1" pin="+"/>
 <label x="266.7" y="-304.8" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-2" pin="2"/>
+<pinref part="S9" gate="-2" pin="2"/>
 <wire x1="276.86" y1="-142.24" x2="279.4" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="S5" gate="-1" pin="2"/>
+<pinref part="S9" gate="-1" pin="2"/>
 <wire x1="276.86" y1="-137.16" x2="279.4" y2="-137.16" width="0.1524" layer="91"/>
 <label x="281.94" y="-137.16" size="1.27" layer="95" ratio="10" xref="yes"/>
 <wire x1="279.4" y1="-137.16" x2="281.94" y2="-137.16" width="0.1524" layer="91"/>
@@ -15295,7 +15295,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <junction x="279.4" y="-137.16"/>
 </segment>
 <segment>
-<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
 <wire x1="276.86" y1="-304.8" x2="276.86" y2="-307.34" width="0.1524" layer="91"/>
 <label x="276.86" y="-304.8" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
@@ -15307,12 +15307,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="307.34" y="-99.06" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S11" gate="-1" pin="2"/>
+<pinref part="S10" gate="-1" pin="2"/>
 <wire x1="276.86" y1="-180.34" x2="281.94" y2="-180.34" width="0.1524" layer="91"/>
 <label x="281.94" y="-180.34" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN9" gate="-1" pin="1"/>
+<pinref part="RN10" gate="-1" pin="1"/>
 <wire x1="266.7" y1="-254" x2="261.62" y2="-254" width="0.1524" layer="91"/>
 <label x="261.62" y="-254" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15324,12 +15324,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="307.34" y="-101.6" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S11" gate="-2" pin="2"/>
+<pinref part="S10" gate="-2" pin="2"/>
 <wire x1="276.86" y1="-185.42" x2="281.94" y2="-185.42" width="0.1524" layer="91"/>
 <label x="281.94" y="-185.42" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN9" gate="-2" pin="1"/>
+<pinref part="RN10" gate="-2" pin="1"/>
 <wire x1="266.7" y1="-259.08" x2="261.62" y2="-259.08" width="0.1524" layer="91"/>
 <label x="261.62" y="-259.08" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15341,12 +15341,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="307.34" y="-104.14" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S11" gate="-3" pin="2"/>
+<pinref part="S10" gate="-3" pin="2"/>
 <wire x1="276.86" y1="-190.5" x2="281.94" y2="-190.5" width="0.1524" layer="91"/>
 <label x="281.94" y="-190.5" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN9" gate="-3" pin="1"/>
+<pinref part="RN10" gate="-3" pin="1"/>
 <wire x1="266.7" y1="-264.16" x2="261.62" y2="-264.16" width="0.1524" layer="91"/>
 <label x="261.62" y="-264.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15358,12 +15358,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="307.34" y="-106.68" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-5" pin="2"/>
+<pinref part="S9" gate="-5" pin="2"/>
 <wire x1="276.86" y1="-157.48" x2="281.94" y2="-157.48" width="0.1524" layer="91"/>
 <label x="281.94" y="-157.48" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN10" gate="-3" pin="1"/>
+<pinref part="RN9" gate="-3" pin="1"/>
 <wire x1="266.7" y1="-226.06" x2="261.62" y2="-226.06" width="0.1524" layer="91"/>
 <label x="261.62" y="-226.06" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15375,12 +15375,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="307.34" y="-109.22" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-6" pin="2"/>
+<pinref part="S9" gate="-6" pin="2"/>
 <wire x1="276.86" y1="-162.56" x2="281.94" y2="-162.56" width="0.1524" layer="91"/>
 <label x="281.94" y="-162.56" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN10" gate="-4" pin="1"/>
+<pinref part="RN9" gate="-4" pin="1"/>
 <wire x1="266.7" y1="-231.14" x2="261.62" y2="-231.14" width="0.1524" layer="91"/>
 <label x="261.62" y="-231.14" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15392,12 +15392,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="307.34" y="-111.76" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-7" pin="2"/>
+<pinref part="S9" gate="-7" pin="2"/>
 <wire x1="276.86" y1="-167.64" x2="281.94" y2="-167.64" width="0.1524" layer="91"/>
 <label x="281.94" y="-167.64" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN10" gate="-5" pin="1"/>
+<pinref part="RN9" gate="-5" pin="1"/>
 <wire x1="266.7" y1="-236.22" x2="261.62" y2="-236.22" width="0.1524" layer="91"/>
 <label x="261.62" y="-236.22" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15409,12 +15409,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="307.34" y="-114.3" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S5" gate="-8" pin="2"/>
+<pinref part="S9" gate="-8" pin="2"/>
 <wire x1="276.86" y1="-172.72" x2="281.94" y2="-172.72" width="0.1524" layer="91"/>
 <label x="281.94" y="-172.72" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN10" gate="-6" pin="1"/>
+<pinref part="RN9" gate="-6" pin="1"/>
 <wire x1="266.7" y1="-241.3" x2="261.62" y2="-241.3" width="0.1524" layer="91"/>
 <label x="261.62" y="-241.3" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15427,7 +15427,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="266.7" y1="-287.02" x2="264.16" y2="-287.02" width="0.1524" layer="91"/>
-<pinref part="SW17" gate="BEF1" pin="P1"/>
+<pinref part="SW4" gate="BEF1" pin="P1"/>
 <label x="264.16" y="-287.02" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
@@ -15439,7 +15439,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="266.7" y1="-276.86" x2="264.16" y2="-276.86" width="0.1524" layer="91"/>
-<pinref part="SW17" gate="BEF1" pin="P"/>
+<pinref part="SW4" gate="BEF1" pin="P"/>
 <label x="264.16" y="-276.86" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
@@ -15456,13 +15456,13 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="358.14" y1="-304.8" x2="358.14" y2="-307.34" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
 <label x="358.14" y="-304.8" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-2" pin="2"/>
+<pinref part="S11" gate="-2" pin="2"/>
 <wire x1="358.14" y1="-142.24" x2="360.68" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="S6" gate="-1" pin="2"/>
+<pinref part="S11" gate="-1" pin="2"/>
 <wire x1="358.14" y1="-137.16" x2="360.68" y2="-137.16" width="0.1524" layer="91"/>
 <label x="363.22" y="-137.16" size="1.27" layer="95" ratio="10" xref="yes"/>
 <wire x1="360.68" y1="-137.16" x2="363.22" y2="-137.16" width="0.1524" layer="91"/>
@@ -15471,7 +15471,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="347.98" y1="-307.34" x2="347.98" y2="-304.8" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="C6" gate="G$1" pin="+"/>
 <label x="347.98" y="-304.8" size="1.27" layer="95" ratio="10" rot="R90" xref="yes"/>
 </segment>
 </net>
@@ -15492,7 +15492,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="363.22" y="-180.34" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN11" gate="-1" pin="1"/>
+<pinref part="RN12" gate="-1" pin="1"/>
 <wire x1="347.98" y1="-254" x2="342.9" y2="-254" width="0.1524" layer="91"/>
 <label x="342.9" y="-254" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15514,7 +15514,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="363.22" y="-185.42" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN11" gate="-2" pin="1"/>
+<pinref part="RN12" gate="-2" pin="1"/>
 <wire x1="347.98" y1="-259.08" x2="342.9" y2="-259.08" width="0.1524" layer="91"/>
 <label x="342.9" y="-259.08" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15536,7 +15536,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <label x="363.22" y="-190.5" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN11" gate="-3" pin="1"/>
+<pinref part="RN12" gate="-3" pin="1"/>
 <wire x1="347.98" y1="-264.16" x2="342.9" y2="-264.16" width="0.1524" layer="91"/>
 <label x="342.9" y="-264.16" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15553,12 +15553,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X7" gate="A" pin="!BLK1"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-5" pin="2"/>
+<pinref part="S11" gate="-5" pin="2"/>
 <wire x1="358.14" y1="-157.48" x2="363.22" y2="-157.48" width="0.1524" layer="91"/>
 <label x="363.22" y="-157.48" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN12" gate="-3" pin="1"/>
+<pinref part="RN11" gate="-3" pin="1"/>
 <wire x1="347.98" y1="-226.06" x2="342.9" y2="-226.06" width="0.1524" layer="91"/>
 <label x="342.9" y="-226.06" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15575,12 +15575,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X7" gate="A" pin="!BLK2"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-6" pin="2"/>
+<pinref part="S11" gate="-6" pin="2"/>
 <wire x1="358.14" y1="-162.56" x2="363.22" y2="-162.56" width="0.1524" layer="91"/>
 <label x="363.22" y="-162.56" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN12" gate="-4" pin="1"/>
+<pinref part="RN11" gate="-4" pin="1"/>
 <wire x1="347.98" y1="-231.14" x2="342.9" y2="-231.14" width="0.1524" layer="91"/>
 <label x="342.9" y="-231.14" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15597,12 +15597,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X7" gate="A" pin="!BLK3"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-7" pin="2"/>
+<pinref part="S11" gate="-7" pin="2"/>
 <wire x1="358.14" y1="-167.64" x2="363.22" y2="-167.64" width="0.1524" layer="91"/>
 <label x="363.22" y="-167.64" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN12" gate="-5" pin="1"/>
+<pinref part="RN11" gate="-5" pin="1"/>
 <wire x1="347.98" y1="-236.22" x2="342.9" y2="-236.22" width="0.1524" layer="91"/>
 <label x="342.9" y="-236.22" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15619,12 +15619,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <pinref part="X7" gate="A" pin="!BLK5"/>
 </segment>
 <segment>
-<pinref part="S6" gate="-8" pin="2"/>
+<pinref part="S11" gate="-8" pin="2"/>
 <wire x1="358.14" y1="-172.72" x2="363.22" y2="-172.72" width="0.1524" layer="91"/>
 <label x="363.22" y="-172.72" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN12" gate="-6" pin="1"/>
+<pinref part="RN11" gate="-6" pin="1"/>
 <wire x1="347.98" y1="-241.3" x2="342.9" y2="-241.3" width="0.1524" layer="91"/>
 <label x="342.9" y="-241.3" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
@@ -15642,7 +15642,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="347.98" y1="-287.02" x2="345.44" y2="-287.02" width="0.1524" layer="91"/>
-<pinref part="SW9" gate="BEF1" pin="P1"/>
+<pinref part="SW5" gate="BEF1" pin="P1"/>
 <label x="345.44" y="-287.02" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
@@ -15659,24 +15659,24 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </segment>
 <segment>
 <wire x1="347.98" y1="-276.86" x2="345.44" y2="-276.86" width="0.1524" layer="91"/>
-<pinref part="SW9" gate="BEF1" pin="P"/>
+<pinref part="SW5" gate="BEF1" pin="P"/>
 <label x="345.44" y="-276.86" size="1.27" layer="95" ratio="10" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="!IO2SW_2" class="0">
 <segment>
-<pinref part="S2" gate="-3" pin="2"/>
+<pinref part="S3" gate="-3" pin="2"/>
 <wire x1="33.02" y1="-147.32" x2="38.1" y2="-147.32" width="0.1524" layer="91"/>
 <label x="38.1" y="-147.32" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN4" gate="-1" pin="1"/>
+<pinref part="RN3" gate="-1" pin="1"/>
 <wire x1="22.86" y1="-215.9" x2="17.78" y2="-215.9" width="0.1524" layer="91"/>
 <label x="17.78" y="-215.9" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SW6" gate="BEF1" pin="S1"/>
-<pinref part="SW6" gate="BEF1" pin="O"/>
+<pinref part="SW1" gate="BEF1" pin="S1"/>
+<pinref part="SW1" gate="BEF1" pin="O"/>
 <wire x1="33.02" y1="-274.32" x2="38.1" y2="-274.32" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-274.32" x2="38.1" y2="-289.56" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-289.56" x2="33.02" y2="-289.56" width="0.1524" layer="91"/>
@@ -15687,18 +15687,18 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </net>
 <net name="!IO3SW_2" class="0">
 <segment>
-<pinref part="S2" gate="-4" pin="2"/>
+<pinref part="S3" gate="-4" pin="2"/>
 <wire x1="33.02" y1="-152.4" x2="38.1" y2="-152.4" width="0.1524" layer="91"/>
 <label x="38.1" y="-152.4" size="1.27" layer="95" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RN4" gate="-2" pin="1"/>
+<pinref part="RN3" gate="-2" pin="1"/>
 <wire x1="22.86" y1="-220.98" x2="17.78" y2="-220.98" width="0.1524" layer="91"/>
 <label x="17.78" y="-220.98" size="1.27" layer="95" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SW6" gate="BEF1" pin="O1"/>
-<pinref part="SW6" gate="BEF1" pin="S"/>
+<pinref part="SW1" gate="BEF1" pin="O1"/>
+<pinref part="SW1" gate="BEF1" pin="S"/>
 <wire x1="33.02" y1="-279.4" x2="35.56" y2="-279.4" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-279.4" x2="35.56" y2="-284.48" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-284.48" x2="33.02" y2="-284.48" width="0.1524" layer="91"/>
@@ -15737,7 +15737,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="-48.26" y1="-195.58" x2="-43.18" y2="-195.58" width="0.1524" layer="91"/>
 <label x="-43.18" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S7" gate="-4" pin="2"/>
+<pinref part="S2" gate="-4" pin="2"/>
 </segment>
 <segment>
 <label x="-22.86" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
@@ -15750,7 +15750,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="33.02" y1="-195.58" x2="38.1" y2="-195.58" width="0.1524" layer="91"/>
 <label x="38.1" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S8" gate="-4" pin="2"/>
+<pinref part="S4" gate="-4" pin="2"/>
 </segment>
 <segment>
 <label x="58.42" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
@@ -15763,7 +15763,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="114.3" y1="-195.58" x2="119.38" y2="-195.58" width="0.1524" layer="91"/>
 <label x="119.38" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S9" gate="-4" pin="2"/>
+<pinref part="S6" gate="-4" pin="2"/>
 </segment>
 <segment>
 <label x="139.7" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
@@ -15776,7 +15776,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="195.58" y1="-195.58" x2="200.66" y2="-195.58" width="0.1524" layer="91"/>
 <label x="200.66" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S10" gate="-4" pin="2"/>
+<pinref part="S8" gate="-4" pin="2"/>
 </segment>
 <segment>
 <label x="220.98" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>
@@ -15789,7 +15789,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <segment>
 <wire x1="276.86" y1="-195.58" x2="281.94" y2="-195.58" width="0.1524" layer="91"/>
 <label x="281.94" y="-195.58" size="1.27" layer="95" ratio="10" xref="yes"/>
-<pinref part="S11" gate="-4" pin="2"/>
+<pinref part="S10" gate="-4" pin="2"/>
 </segment>
 <segment>
 <label x="302.26" y="-93.98" size="1.27" layer="95" ratio="10" rot="MR0"/>

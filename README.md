@@ -1,10 +1,11 @@
 # X-Pander VIC
+
 ## Introduction
 
-Cousin to the X-Pander 3 for the C64/SX/C128/C128D, X-Pander VIC opens up a wealth of expansion options for your Commodore VIC-20/VIC-1001. This design continues on tradition of vintage designs like the CardCo Cardboard, while adding more granular controls over select lines like the CMD EX-3/EX2+1 for the C64.The X-Pander VIC offers the following features:
+Cousin to the X-Pander 3 for the C64/SX/C128/C128D, X-Pander VIC opens up a wealth of expansion options for your Commodore VIC-20/VIC-1001. This design continues on tradition of vintage designs like the CardCo Cardboard, while adding more granular controls over select lines like the CMD EX-3/EX2+1 for the C64. The X-Pander VIC offers the following features:
 
 - Individually-selectable expansion ports
-- Power indicators for each port
+- sPower indicators for each port
 - Ability to swap IO select lines ports
 - Easily accessed piano-style configuration switches
 - Top-loading or back-loading terminal port.
